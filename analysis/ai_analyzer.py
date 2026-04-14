@@ -1,9 +1,9 @@
-"""AI-powered deal analysis using Claude API."""
+"""AI-powered deal analysis using Ollama (local LLM)."""
 
 import logging
 from datetime import datetime
 
-import anthropic
+import httpx
 from sqlalchemy.orm import Session
 
 from database.models import Property
@@ -15,22 +15,68 @@ logger = logging.getLogger(__name__)
 class AIAnalyzer:
     def __init__(self, db: Session):
         self.db = db
-        if settings.anthropic_api_key:
-            self.client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
-        else:
-            self.client = None
-            logger.warning("No ANTHROPIC_API_KEY set - AI analysis disabled")
+        self.base_url = settings.ollama_base_url.rstrip("/")
+        self.model = settings.ollama_model
+        self._available = None
+
+    def _check_ollama(self) -> bool:
+        """Check if Ollama is running and the model is available."""
+        if self._available is not None:
+            return self._available
+        try:
+            resp = httpx.get(f"{self.base_url}/api/tags", timeout=5.0)
+            resp.raise_for_status()
+            models = [m["name"] for m in resp.json().get("models", [])]
+            # Match model name with or without :latest tag
+            self._available = any(
+                self.model in m or m.startswith(self.model + ":")
+                for m in models
+            )
+            if not self._available:
+                logger.warning(
+                    f"Ollama is running but model '{self.model}' not found. "
+                    f"Available: {models}. Run: ollama pull {self.model}"
+                )
+            return self._available
+        except Exception as e:
+            logger.warning(f"Ollama not reachable at {self.base_url}: {e}")
+            self._available = False
+            return False
+
+    def _chat(self, prompt: str, max_tokens: int = 1000) -> str | None:
+        """Send a chat request to Ollama and return the response text."""
+        try:
+            resp = httpx.post(
+                f"{self.base_url}/api/chat",
+                json={
+                    "model": self.model,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "stream": False,
+                    "options": {
+                        "num_predict": max_tokens,
+                        "temperature": 0.7,
+                    },
+                },
+                timeout=120.0,
+            )
+            resp.raise_for_status()
+            return resp.json().get("message", {}).get("content", "")
+        except httpx.TimeoutException:
+            logger.error("Ollama request timed out (120s)")
+            return None
+        except Exception as e:
+            logger.error(f"Ollama request failed: {e}")
+            return None
 
     def analyze_top_deals(self, deals: list[Property]) -> int:
         """Run AI analysis on a list of top-scored deals."""
-        if not self.client:
-            logger.warning("AI analyzer not configured - skipping")
+        if not self._check_ollama():
+            logger.warning("AI analyzer not available - skipping")
             return 0
 
         analyzed = 0
         for prop in deals:
             if prop.ai_analysis and prop.ai_analyzed_at:
-                # Skip if already analyzed recently (within 24h)
                 age = (datetime.utcnow() - prop.ai_analyzed_at).total_seconds()
                 if age < 86400:
                     continue
@@ -47,17 +93,8 @@ class AIAnalyzer:
 
     def _analyze_single(self, prop: Property) -> str | None:
         """Generate AI analysis for a single property."""
-        try:
-            prompt = self._build_prompt(prop)
-            response = self.client.messages.create(
-                model="claude-sonnet-4-20250514",
-                max_tokens=1000,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            return response.content[0].text
-        except Exception as e:
-            logger.error(f"AI analysis failed for property {prop.id}: {e}")
-            return None
+        prompt = self._build_prompt(prop)
+        return self._chat(prompt, max_tokens=1000)
 
     def _build_prompt(self, prop: Property) -> str:
         """Build the analysis prompt for a property."""
@@ -114,10 +151,9 @@ Keep it concise and actionable. Focus on UAE market specifics (DLD fees, service
 
     def analyze_market_overview(self, properties: list[Property]) -> str | None:
         """Generate an AI-powered market overview from current listings."""
-        if not self.client:
+        if not self._check_ollama():
             return None
 
-        # Build summary data
         cities = {}
         for p in properties:
             city = p.city or "unknown"
@@ -152,13 +188,4 @@ Provide a 3-4 paragraph market overview covering:
 
 Keep it concise and data-driven.
 """
-        try:
-            response = self.client.messages.create(
-                model="claude-sonnet-4-20250514",
-                max_tokens=1500,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            return response.content[0].text
-        except Exception as e:
-            logger.error(f"Market overview generation failed: {e}")
-            return None
+        return self._chat(prompt, max_tokens=1500)

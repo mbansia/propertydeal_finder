@@ -2,7 +2,7 @@
 
 **UAE Real Estate Deal Scraper & Analyzer** for Dubai and Abu Dhabi.
 
-Scrapes residential property listings from **Bayut**, **Dubizzle**, and **Property Finder**, stores them in a local database, analyzes deals using market comparisons and rental yield calculations, then ranks properties with a deal score. Top-scoring deals get deep AI-powered investment analysis via Claude.
+Scrapes residential property listings from **Bayut**, **Dubizzle**, and **Property Finder**, stores them in a local database, analyzes deals using market comparisons and rental yield calculations, then ranks properties with a deal score. Top-scoring deals get deep AI-powered investment analysis via **Ollama** (local LLM, no API keys needed).
 
 ## Features
 
@@ -12,7 +12,7 @@ Scrapes residential property listings from **Bayut**, **Dubizzle**, and **Proper
   - Price vs neighborhood median (40%)
   - Price per sqft vs area median (30%)
   - Estimated rental yield (30%)
-- **AI-powered analysis** — Top deals investigated by Claude with investment ratings, risk factors, and rental potential
+- **AI-powered analysis** — Top deals investigated locally via Ollama with investment ratings, risk factors, and rental potential
 - **Web dashboard** — Filter, sort, browse deals, view AI analysis
 - **Market overview** — AI-generated market summary
 
@@ -24,9 +24,9 @@ git clone https://github.com/mbansia/propertydeal_finder.git
 cd propertydeal_finder
 pip install -r requirements.txt
 
-# 2. Configure
-cp .env.example .env
-# Edit .env with your ANTHROPIC_API_KEY
+# 2. Make sure Ollama is running with a model
+ollama pull llama3.1
+ollama serve  # if not already running
 
 # 3. Run everything (scrape + analyze)
 python run_scraper.py run
@@ -87,7 +87,7 @@ propertydeal_finder/
 │   └── propertyfinder.py   # PropertyFinder.ae scraper
 ├── analysis/
 │   ├── metrics.py          # Market stats, deal scoring
-│   └── ai_analyzer.py      # Claude API integration
+│   └── ai_analyzer.py      # Ollama LLM integration
 └── dashboard/
     ├── templates/index.html
     └── static/
@@ -101,5 +101,5 @@ propertydeal_finder/
 - **FastAPI** — Web framework & API
 - **SQLite + SQLAlchemy** — Database
 - **httpx + BeautifulSoup** — Scraping
-- **Claude API (Anthropic)** — AI analysis
+- **Ollama** — Local AI analysis (llama3.1, mistral, etc.)
 - **Vanilla JS** — Dashboard frontend

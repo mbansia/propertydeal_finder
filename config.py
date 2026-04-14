@@ -6,7 +6,10 @@ load_dotenv()
 
 
 class Settings(BaseSettings):
-    anthropic_api_key: str = ""
+    # Ollama
+    ollama_base_url: str = "http://localhost:11434"
+    ollama_model: str = "llama3.1"
+
     database_url: str = "sqlite:///./data/properties.db"
     scrape_interval_hours: int = 6
     max_concurrent_requests: int = 3

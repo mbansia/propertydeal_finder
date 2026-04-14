@@ -71,14 +71,12 @@ def run_analysis(ai: bool = True):
         scored = engine_a.score_deals()
         logger.info(f"Scored {scored} properties")
 
-        if ai and settings.anthropic_api_key:
-            logger.info("Running AI analysis on top deals...")
+        if ai:
+            logger.info("Running AI analysis on top deals via Ollama...")
             top_deals = engine_a.get_top_deals(limit=settings.deal_score_top_n)
             analyzer = AIAnalyzer(db)
             analyzed = analyzer.analyze_top_deals(top_deals)
             logger.info(f"AI analyzed {analyzed} deals")
-        elif ai:
-            logger.warning("ANTHROPIC_API_KEY not set - skipping AI analysis")
 
         # Print summary
         summary = engine_a.get_summary_stats()

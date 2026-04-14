@@ -243,7 +243,7 @@ def _run_analysis():
 
         # AI-analyze top deals
         top = engine.get_top_deals(limit=settings.deal_score_top_n)
-        if top and settings.anthropic_api_key:
+        if top:
             analyzer = AIAnalyzer(db)
             analyzer.analyze_top_deals(top)
     finally:
