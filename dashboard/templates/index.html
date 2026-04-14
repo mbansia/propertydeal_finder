@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Deal Finder - UAE</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Property Deal Finder</h1>
+            <p class="subtitle">Dubai &amp; Abu Dhabi Real Estate Deals</p>
+        </div>
+        <div class="header-actions">
+            <button id="btn-scrape" class="btn btn-primary" onclick="triggerScrape()">Run Scraper</button>
+            <button id="btn-analyze" class="btn btn-secondary" onclick="triggerAnalysis()">Run Analysis</button>
+            <button id="btn-overview" class="btn btn-accent" onclick="showMarketOverview()">Market Overview</button>
+        </div>
+    </header>
+
+    <!-- Stats Banner -->
+    <section id="stats-banner" class="stats-banner">
+        <div class="stat-card">
+            <span class="stat-value" id="stat-total">--</span>
+            <span class="stat-label">Total Listings</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="stat-scored">--</span>
+            <span class="stat-label">Scored</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="stat-ai">--</span>
+            <span class="stat-label">AI Analyzed</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="stat-dubai">--</span>
+            <span class="stat-label">Dubai</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="stat-abudhabi">--</span>
+            <span class="stat-label">Abu Dhabi</span>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters-section">
+        <div class="filters-row">
+            <select id="filter-city" onchange="loadProperties()">
+                <option value="">All Cities</option>
+            </select>
+            <select id="filter-neighborhood" onchange="loadProperties()">
+                <option value="">All Neighborhoods</option>
+            </select>
+            <select id="filter-type" onchange="loadProperties()">
+                <option value="">All Types</option>
+            </select>
+            <select id="filter-bedrooms" onchange="loadProperties()">
+                <option value="">Any Beds</option>
+            </select>
+            <select id="filter-source" onchange="loadProperties()">
+                <option value="">All Sources</option>
+            </select>
+            <input id="filter-min-price" type="number" placeholder="Min Price" onchange="loadProperties()">
+            <input id="filter-max-price" type="number" placeholder="Max Price" onchange="loadProperties()">
+            <select id="filter-sort" onchange="loadProperties()">
+                <option value="deal_score:desc">Best Deals First</option>
+                <option value="price:asc">Price: Low to High</option>
+                <option value="price:desc">Price: High to Low</option>
+                <option value="price_per_sqft:asc">Price/sqft: Low to High</option>
+                <option value="rental_yield_pct:desc">Highest Yield</option>
+                <option value="scraped_at:desc">Newest First</option>
+            </select>
+            <button class="btn btn-small" onclick="resetFilters()">Reset</button>
+        </div>
+        <div class="filter-chips" id="active-filters"></div>
+    </section>
+
+    <!-- Top Deals Highlight -->
+    <section id="top-deals-section" class="top-deals-section">
+        <h2>Top Deals</h2>
+        <div id="top-deals" class="deals-grid"></div>
+    </section>
+
+    <!-- All Properties -->
+    <section class="properties-section">
+        <div class="section-header">
+            <h2>All Properties <span id="results-count" class="count-badge"></span></h2>
+        </div>
+        <div id="properties-list" class="properties-grid"></div>
+        <div id="pagination" class="pagination"></div>
+    </section>
+
+    <!-- Modal for AI Analysis -->
+    <div id="modal" class="modal" onclick="closeModal(event)">
+        <div class="modal-content">
+            <button class="modal-close" onclick="document.getElementById('modal').style.display='none'">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast" class="toast"></div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
