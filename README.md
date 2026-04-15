@@ -16,7 +16,7 @@ Scrapes residential property listings from **Bayut**, **Dubizzle**, and **Proper
 - **Web dashboard** — Filter, sort, browse deals, view AI analysis
 - **Market overview** — AI-generated market summary
 
-## Quick Start
+## Quick Start (Local Dev)
 
 ```bash
 # 1. Clone & install
@@ -24,9 +24,9 @@ git clone https://github.com/mbansia/propertydeal_finder.git
 cd propertydeal_finder
 pip install -r requirements.txt
 
-# 2. Make sure Ollama is running with a model
-ollama pull llama3.1
-ollama serve  # if not already running
+# 2. Configure Ollama (choose one)
+# - LOCAL: install Ollama from ollama.com, then: ollama pull llama3.1
+# - HOSTED: create .env with OLLAMA_BASE_URL=https://ollama.com and OLLAMA_API_KEY=...
 
 # 3. Run everything (scrape + analyze)
 python run_scraper.py run
@@ -35,6 +35,8 @@ python run_scraper.py run
 python run_scraper.py server
 # Open http://localhost:8000
 ```
+
+For deploying this to a hosted URL, see [Deploy from GitHub](#deploy-from-github) below.
 
 ## CLI Commands
 
@@ -101,5 +103,50 @@ propertydeal_finder/
 - **FastAPI** — Web framework & API
 - **SQLite + SQLAlchemy** — Database
 - **httpx + BeautifulSoup** — Scraping
-- **Ollama** — Local AI analysis (llama3.1, mistral, etc.)
+- **Ollama** — AI analysis (local or via Ollama Cloud API)
 - **Vanilla JS** — Dashboard frontend
+
+## Deploy from GitHub
+
+### Option A: Render (Recommended - free tier)
+
+1. Push this repo to GitHub (done)
+2. Go to https://render.com and sign in with GitHub
+3. Click **New → Blueprint** and select the `propertydeal_finder` repo
+4. Render auto-detects `render.yaml` and creates the service
+5. In the Render dashboard, set the `OLLAMA_API_KEY` env var (from https://ollama.com/settings/keys)
+6. Deploy. Your app will be live at `https://propertydeal-finder.onrender.com`
+
+**For persistent data** (so SQLite survives redeploys): upgrade to the Starter plan ($7/mo) and uncomment the `disk:` block in `render.yaml`. On free tier, data resets on each deploy.
+
+### Option B: Railway
+
+1. Go to https://railway.app and sign in with GitHub
+2. **New Project → Deploy from GitHub Repo** → select `propertydeal_finder`
+3. Railway detects `Dockerfile` and `railway.json`
+4. Add environment variables in Railway dashboard:
+   - `OLLAMA_BASE_URL` = `https://ollama.com`
+   - `OLLAMA_MODEL` = `gpt-oss:20b`
+   - `OLLAMA_API_KEY` = your key
+5. Railway provides a persistent volume by default for `/app/data`
+
+### Option C: Fly.io
+
+```bash
+fly launch                     # uses the Dockerfile
+fly secrets set OLLAMA_API_KEY=your-key OLLAMA_BASE_URL=https://ollama.com
+fly volumes create data --size 1
+fly deploy
+```
+
+### Why not Vercel?
+
+Vercel is serverless (10-60s execution, no persistent disk, no background workers). This app needs long-running scrapes, SQLite persistence, and background tasks — use Render/Railway/Fly instead.
+
+### Required Environment Variables
+
+| Var | Example | Notes |
+|-----|---------|-------|
+| `OLLAMA_BASE_URL` | `https://ollama.com` | Hosted endpoint |
+| `OLLAMA_MODEL` | `gpt-oss:20b` or `llama3.1:70b` | Pick from https://ollama.com/library |
+| `OLLAMA_API_KEY` | `ollama-...` | Get at https://ollama.com/settings/keys |

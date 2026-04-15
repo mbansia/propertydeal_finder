@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: propertydeal-finder
+    runtime: python
+    plan: free  # Upgrade to "starter" ($7/mo) for persistent disk
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OLLAMA_BASE_URL
+        value: https://ollama.com
+      - key: OLLAMA_MODEL
+        value: gpt-oss:20b
+      - key: OLLAMA_API_KEY
+        sync: false  # Set manually in Render dashboard (encrypted)
+      - key: DATABASE_URL
+        value: sqlite:///./data/properties.db
+      - key: REQUEST_DELAY_SECONDS
+        value: "2"
+    # Uncomment below once you upgrade to starter plan ($7/mo) for DB persistence
+    # disk:
+    #   name: data
+    #   mountPath: /opt/render/project/src/data
+    #   sizeGB: 1
+    autoDeploy: true
