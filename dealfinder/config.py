@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -51,9 +52,21 @@ class Config:
     @classmethod
     def load(cls, path: str | Path = DEFAULT_CONFIG) -> "Config":
         raw = yaml.safe_load(Path(path).read_text())
+        paths = {k: str(ROOT / v) for k, v in raw["paths"].items()}
+        # In production, point everything at a persistent volume by setting
+        # DEALFINDER_DATA_DIR (e.g. /app/data/live). File names stay standard.
+        data_dir = os.environ.get("DEALFINDER_DATA_DIR")
+        if data_dir:
+            d = Path(data_dir)
+            paths.update(
+                listings=str(d / "listings.csv"),
+                transactions_sale=str(d / "transactions_sale.csv"),
+                transactions_rent=str(d / "transactions_rent.csv"),
+                output=str(d / "deals.csv"),
+            )
         return cls(
             benchmark=BenchmarkCfg(**raw["benchmark"]),
             yield_=YieldCfg(**raw["yield"]),
             score=ScoreCfg(**raw["score"]),
-            paths={k: str(ROOT / v) for k, v in raw["paths"].items()},
+            paths=paths,
         )

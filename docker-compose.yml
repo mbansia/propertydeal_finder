@@ -1,0 +1,34 @@
+# Deploy on a VPS (Vultr) via Coolify — point Coolify at this compose file.
+#
+#   dashboard  the Streamlit UI (Coolify maps a domain to port 8501)
+#   scraper    a loop that refreshes listings on a schedule
+#
+# Both share a persistent named volume so scraped listings and downloaded
+# transaction exports survive redeploys.
+
+services:
+  dashboard:
+    build: .
+    restart: unless-stopped
+    environment:
+      DEALFINDER_DATA_DIR: /app/data/live
+    volumes:
+      - dealdata:/app/data/live
+    ports:
+      - "8501:8501"
+
+  scraper:
+    build: .
+    restart: unless-stopped
+    entrypoint: ["bash", "/app/deploy/scrape-loop.sh"]
+    environment:
+      DEALFINDER_DATA_DIR: /app/data/live
+      SCRAPE_SOURCES: "bayut,property_finder,dubizzle,reddit"
+      SCRAPE_CITIES: "Dubai,Abu Dhabi"
+      SCRAPE_MAX_PAGES: "8"
+      SCRAPE_INTERVAL_HOURS: "12"
+    volumes:
+      - dealdata:/app/data/live
+
+volumes:
+  dealdata:

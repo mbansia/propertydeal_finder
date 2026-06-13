@@ -24,7 +24,7 @@ about when you need to move quickly:
 ```bash
 pip install -r requirements.txt
 
-# 1. Generate sample data (stands in for live connectors)
+# 1. Generate sample data so everything runs offline (stands in for live data)
 python -m scripts.seed_sample_data
 
 # 2. Scan the best deals in the terminal
@@ -36,7 +36,8 @@ streamlit run app.py
 
 The sample dataset includes a handful of genuinely under-priced listings, so the
 top of the table shows real-looking deals (15–21% below comps with healthy
-yields) the moment you run it.
+yields) the moment you run it. To pull **real** listings instead, see
+[Live data](#live-data) (browser scraping) and [Deploy](#deploy-on-vultr--coolify).
 
 ## How a deal is scored
 
@@ -76,35 +77,90 @@ python -m dealfinder.cli deals --include-suspicious      # show flagged ultra-di
 | `--min-score` / `--min-yield` / `--min-discount` | thresholds |
 | `--save PATH` | write the filtered shortlist to CSV |
 
-## Wiring real data
+## Live data
 
 The engine reads three normalized CSVs (paths in `config.yaml`). Connectors in
-[`dealfinder/connectors/`](dealfinder/connectors/) turn each real source into
-those rows:
+[`dealfinder/connectors/`](dealfinder/connectors/) produce them.
 
-- **Listings** (asking prices): `bayut`, `dubizzle`, `property_finder`, `reddit`.
-  The Reddit connector already pulls public JSON; the three portals are behind
-  anti-bot protection and Terms — use their official APIs/partner feeds, save a
-  results payload, and map it in the connector's `parse_export`.
-- **Transactions** (the comps): `dld`, `adre`, `dxbconnect`. These map cleanly
-  from the structured government/portal **CSV exports** — download a file and
-  point the connector at it:
+### Listings — scraped with a headless browser
+
+Bayut, Dubizzle and Property Finder block plain HTTP clients (`requests`/`curl`
+get a `403`), so the connectors drive a **headless Chromium via Playwright**
+(see [`connectors/browser.py`](dealfinder/connectors/browser.py)) with light
+stealth and polite rate-limiting. All three are Next.js apps that embed their
+search results as JSON in a `__NEXT_DATA__` tag — we parse that, which is far
+more stable than CSS selectors. Reddit needs no browser (public JSON).
+
+```bash
+# one-time: install the browser
+playwright install --with-deps chromium
+
+# refresh listings (writes to the configured listings CSV, de-duped on id)
+python -m dealfinder.scrape --all --max-pages 8
+python -m dealfinder.scrape --sources bayut,property_finder --cities Dubai
+python -m dealfinder.scrape --sources property_finder --debug-dir out/raw   # dump __NEXT_DATA__
+```
+
+If a portal redeploys and the mapping drifts, run with `--debug-dir` to dump the
+raw `__NEXT_DATA__` and adjust the field paths in `parse_record`. The parser is
+defensive (tries several keys, skips rows it can't read) so a partial change
+degrades gracefully instead of crashing.
+
+### Transactions (comps) — DLD / ADRE / DXBconnect exports
+
+Transaction data is published as **bulk files**, so there's nothing to scrape —
+download and map:
+
+- **DLD** — Dubai Land Department open data on [Dubai Pulse](https://www.dubaipulse.gov.ae/data/dld-transactions)
+  (sale + Ejari rental CSVs, no login).
+- **ADRE** — Abu Dhabi transaction disclosures (DMT).
+- **DXBconnect** — aggregated DLD feed for convenience.
 
 ```python
 from dealfinder.connectors.transactions import DLDConnector
 DLDConnector("downloads/dld_transactions.csv", kind="sale").append_to(
-    "data/sample/transactions_sale.csv"
+    "data/live/transactions_sale.csv"
 )
 ```
 
-Each connector emits the schema in [`dealfinder/schema.py`](dealfinder/schema.py),
-so the engine never cares where a row came from. Swap the sample CSVs for
-connector output and everything downstream — scoring, CLI, dashboard — just works.
+> **Area-name harmonisation:** DLD sometimes uses different community names than
+> the portals (e.g. DLD's *Marsa Dubai* = *Dubai Marina*). Where names don't line
+> up, the benchmark automatically falls back to city-level comps, but for
+> sharpest per-area pricing add a name-mapping when you load transactions.
 
-> **Note on data:** respect each source's Terms of Service and rate limits, and
-> treat transaction data per its licence. The bundled data is synthetic and for
-> demonstration only — not investment advice. Always verify title, service
-> charges, and any flags before acting on a deal.
+Every connector emits the schema in [`dealfinder/schema.py`](dealfinder/schema.py),
+so the engine never cares where a row came from.
+
+> **Sandbox note:** these scrapers were built and unit-tested against
+> representative payloads but not run against the live sites from the dev
+> sandbox, whose network egress allowlist blocks the portals. They run normally
+> on a server with open egress (your Vultr box).
+
+> **Note on data:** respect each source's Terms of Service, robots and rate
+> limits, and treat transaction data per its licence. Bundled sample data is
+> synthetic — not investment advice. Verify title, service charges and any flags
+> before acting.
+
+## Deploy on Vultr + Coolify
+
+This app needs a persistent disk, a real browser and long-running processes, so
+a small VPS fits and **serverless (Vercel) does not** — no persistent storage,
+function timeouts too short for a multi-page scrape, and no Chromium/Streamlit
+server. Use a VPS:
+
+1. Create a Vultr instance (2 vCPU / 2–4 GB is plenty) and install Coolify.
+2. In Coolify: **New Resource → Docker Compose**, point it at this repo. It reads
+   [`docker-compose.yml`](docker-compose.yml), which builds two services off the
+   one [`Dockerfile`](Dockerfile):
+   - `dashboard` — the Streamlit UI on port `8501` (map your domain to it).
+   - `scraper` — [`deploy/scrape-loop.sh`](deploy/scrape-loop.sh): seeds
+     placeholder comps on first boot, then re-scrapes every `SCRAPE_INTERVAL_HOURS`.
+   Both share a persistent `dealdata` volume (`DEALFINDER_DATA_DIR=/app/data/live`).
+3. Drop your DLD/ADRE/DXBconnect transaction CSVs into the volume (or map the
+   connectors into the loop) to replace the placeholder comps with real ones.
+
+Tune scraping via env vars: `SCRAPE_SOURCES`, `SCRAPE_CITIES`, `SCRAPE_MAX_PAGES`,
+`SCRAPE_INTERVAL_HOURS`. Set `DEALFINDER_DATA_DIR` to relocate the data dir.
 
 ## Project layout
 
@@ -116,12 +172,17 @@ dealfinder/
   scoring.py                # discount + net yield -> 0–100 deal score
   pipeline.py               # load -> benchmark -> score -> rank
   cli.py                    # terminal deal scanner
+  scrape.py                 # run live scrapers, refresh listings
   connectors/
-    listings.py             # Bayut, Dubizzle, Property Finder, Reddit
-    transactions.py         # DLD, ADRE, DXBconnect
+    browser.py              # stealth headless-Chromium (Playwright) session
+    listings.py             # Bayut, Dubizzle, Property Finder, Reddit (browser/JSON)
+    transactions.py         # DLD, ADRE, DXBconnect (bulk CSV exports)
 scripts/seed_sample_data.py # realistic synthetic data generator
 app.py                      # Streamlit dashboard
-tests/test_engine.py        # benchmark + scoring tests
+Dockerfile                  # Playwright + Streamlit image
+docker-compose.yml          # dashboard + scheduled scraper, for Coolify
+deploy/scrape-loop.sh       # periodic scrape + first-boot bootstrap
+tests/                      # engine + scraper-parser tests
 ```
 
 ## Tests

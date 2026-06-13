@@ -14,6 +14,7 @@ Run:  python -m scripts.seed_sample_data
 
 from __future__ import annotations
 
+import os
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -22,7 +23,8 @@ import pandas as pd
 
 RNG = np.random.default_rng(42)
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "data" / "sample"
+# Honor DEALFINDER_DATA_DIR so deployments can seed straight into their volume.
+OUT = Path(os.environ.get("DEALFINDER_DATA_DIR", ROOT / "data" / "sample"))
 TODAY = date(2026, 6, 13)
 
 # area -> (city, base sale AED/sqft, gross yield, property_type)
