@@ -1,0 +1,575 @@
+txn_id,source,city,area,building,property_type,bedrooms,size_sqft,price,txn_date
+sale_00000,adre,Dubai,Dubai Marina,Cayan Tower,apartment,0,468.4,717000.0,2026-05-13
+sale_00001,dxbconnect,Dubai,Dubai Marina,Cayan Tower,apartment,0,406.2,609000.0,2025-09-09
+sale_00002,dxbconnect,Dubai,Dubai Marina,Princess Tower,apartment,0,451.3,744000.0,2025-12-13
+sale_00003,adre,Dubai,Dubai Marina,Princess Tower,apartment,0,481.5,798000.0,2025-08-17
+sale_00004,dld,Dubai,Dubai Marina,Princess Tower,apartment,0,472.9,733000.0,2025-07-24
+sale_00005,dld,Dubai,Dubai Marina,Marina Gate,apartment,0,484.2,796000.0,2025-09-10
+sale_00006,adre,Dubai,Dubai Marina,Cayan Tower,apartment,0,441.2,790000.0,2025-10-09
+sale_00007,dxbconnect,Dubai,Dubai Marina,Princess Tower,apartment,0,450.3,771000.0,2026-05-29
+sale_00008,dxbconnect,Dubai,Dubai Marina,Cayan Tower,apartment,0,471.4,801000.0,2026-01-31
+sale_00009,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,0,445.9,694000.0,2025-12-24
+sale_00010,dxbconnect,Dubai,Dubai Marina,Princess Tower,apartment,0,491.2,804000.0,2026-02-13
+sale_00011,dld,Dubai,Dubai Marina,Marina Gate,apartment,0,478.0,830000.0,2025-08-14
+sale_00012,dxbconnect,Dubai,Dubai Marina,Cayan Tower,apartment,0,427.7,733000.0,2026-01-06
+sale_00013,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,0,463.2,776000.0,2025-10-07
+sale_00014,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,1,790.5,1366000.0,2025-08-27
+sale_00015,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,1,809.5,1199000.0,2025-09-02
+sale_00016,dld,Dubai,Dubai Marina,Marina Gate,apartment,1,758.0,1195000.0,2026-03-16
+sale_00017,dld,Dubai,Dubai Marina,Cayan Tower,apartment,1,739.5,1303000.0,2025-11-19
+sale_00018,adre,Dubai,Dubai Marina,Princess Tower,apartment,1,764.3,1275000.0,2026-05-11
+sale_00019,adre,Dubai,Dubai Marina,Princess Tower,apartment,1,817.1,1315000.0,2026-01-05
+sale_00020,dxbconnect,Dubai,Dubai Marina,Cayan Tower,apartment,1,820.2,1335000.0,2026-06-01
+sale_00021,dld,Dubai,Dubai Marina,Cayan Tower,apartment,1,737.0,1258000.0,2026-02-26
+sale_00022,adre,Dubai,Dubai Marina,Cayan Tower,apartment,1,812.3,1300000.0,2025-06-15
+sale_00023,adre,Dubai,Dubai Marina,Marina Gate,apartment,1,765.5,1303000.0,2026-04-14
+sale_00024,dxbconnect,Dubai,Dubai Marina,Cayan Tower,apartment,1,763.0,1225000.0,2025-10-02
+sale_00025,adre,Dubai,Dubai Marina,Cayan Tower,apartment,1,758.0,1252000.0,2026-04-19
+sale_00026,dld,Dubai,Dubai Marina,Princess Tower,apartment,1,800.9,1383000.0,2026-03-18
+sale_00027,dld,Dubai,Dubai Marina,Cayan Tower,apartment,1,776.3,1130000.0,2026-05-13
+sale_00028,adre,Dubai,Dubai Marina,Cayan Tower,apartment,2,1086.4,1667000.0,2025-12-15
+sale_00029,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,2,1153.2,2076000.0,2025-09-02
+sale_00030,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,2,1232.2,1900000.0,2026-05-16
+sale_00031,dld,Dubai,Dubai Marina,Cayan Tower,apartment,2,1156.0,2020000.0,2026-04-01
+sale_00032,adre,Dubai,Dubai Marina,Marina Gate,apartment,2,1210.8,2031000.0,2025-12-26
+sale_00033,dxbconnect,Dubai,Dubai Marina,Princess Tower,apartment,2,1185.1,1883000.0,2026-01-07
+sale_00034,dld,Dubai,Dubai Marina,Princess Tower,apartment,2,1181.5,2168000.0,2025-10-27
+sale_00035,dld,Dubai,Dubai Marina,Marina Gate,apartment,2,1192.7,1998000.0,2025-12-15
+sale_00036,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,2,1239.1,2096000.0,2026-04-11
+sale_00037,adre,Dubai,Dubai Marina,Cayan Tower,apartment,2,1134.7,1751000.0,2025-11-13
+sale_00038,dld,Dubai,Dubai Marina,Marina Gate,apartment,2,1082.5,1866000.0,2026-04-19
+sale_00039,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,2,1108.1,1868000.0,2026-05-14
+sale_00040,adre,Dubai,Dubai Marina,Cayan Tower,apartment,2,1321.4,2625000.0,2026-04-16
+sale_00041,adre,Dubai,Dubai Marina,Cayan Tower,apartment,2,1029.1,1730000.0,2026-02-12
+sale_00042,dld,Dubai,Dubai Marina,Marina Gate,apartment,3,1657.6,2618000.0,2026-02-01
+sale_00043,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,3,1716.0,2800000.0,2025-11-23
+sale_00044,dld,Dubai,Dubai Marina,Marina Gate,apartment,3,1529.2,2437000.0,2026-03-16
+sale_00045,adre,Dubai,Dubai Marina,Marina Gate,apartment,3,1880.3,3131000.0,2026-05-05
+sale_00046,dld,Dubai,Dubai Marina,Marina Gate,apartment,3,1649.1,2495000.0,2026-04-23
+sale_00047,adre,Dubai,Dubai Marina,Princess Tower,apartment,3,1917.1,2981000.0,2025-08-22
+sale_00048,adre,Dubai,Dubai Marina,Marina Gate,apartment,3,1607.9,2826000.0,2025-10-30
+sale_00049,adre,Dubai,Dubai Marina,Marina Gate,apartment,3,1695.8,2670000.0,2026-04-14
+sale_00050,dxbconnect,Dubai,Dubai Marina,Cayan Tower,apartment,3,1653.6,2494000.0,2026-04-19
+sale_00051,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,3,1861.1,3105000.0,2025-07-22
+sale_00052,dld,Dubai,Dubai Marina,Cayan Tower,apartment,3,1729.2,3114000.0,2026-02-11
+sale_00053,adre,Dubai,Dubai Marina,Cayan Tower,apartment,3,1812.8,3081000.0,2025-09-14
+sale_00054,dxbconnect,Dubai,Dubai Marina,Marina Gate,apartment,3,1718.7,2593000.0,2026-06-02
+sale_00055,dld,Dubai,Dubai Marina,Cayan Tower,apartment,3,1875.8,3056000.0,2026-04-09
+sale_00056,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,0,500.3,485000.0,2025-06-14
+sale_00057,dxbconnect,Dubai,Jumeirah Village Circle,Belgravia,apartment,0,449.1,471000.0,2026-04-22
+sale_00058,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,0,469.3,541000.0,2026-06-07
+sale_00059,dxbconnect,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,403.4,422000.0,2025-10-03
+sale_00060,dxbconnect,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,426.4,420000.0,2026-06-04
+sale_00061,dxbconnect,Dubai,Jumeirah Village Circle,Belgravia,apartment,0,423.4,446000.0,2026-04-29
+sale_00062,dxbconnect,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,0,473.5,480000.0,2026-04-26
+sale_00063,adre,Dubai,Jumeirah Village Circle,Belgravia,apartment,0,474.9,545000.0,2026-03-01
+sale_00064,adre,Dubai,Jumeirah Village Circle,Belgravia,apartment,0,440.8,456000.0,2026-04-20
+sale_00065,adre,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,430.1,454000.0,2026-01-12
+sale_00066,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,529.5,629000.0,2025-09-17
+sale_00067,dxbconnect,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,419.6,422000.0,2026-06-07
+sale_00068,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,493.3,492000.0,2025-12-27
+sale_00069,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,455.5,443000.0,2025-08-01
+sale_00070,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,883.5,893000.0,2025-07-10
+sale_00071,adre,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,775.6,714000.0,2025-12-30
+sale_00072,dxbconnect,Dubai,Jumeirah Village Circle,Pantheon,apartment,1,879.6,840000.0,2025-08-11
+sale_00073,dxbconnect,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,916.0,883000.0,2025-11-09
+sale_00074,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,796.0,937000.0,2025-07-11
+sale_00075,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,816.4,883000.0,2026-03-02
+sale_00076,adre,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,773.7,734000.0,2025-09-28
+sale_00077,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,790.9,798000.0,2025-11-10
+sale_00078,dxbconnect,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,827.4,878000.0,2025-06-19
+sale_00079,adre,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,780.0,778000.0,2026-05-29
+sale_00080,adre,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,775.4,933000.0,2025-07-02
+sale_00081,adre,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,744.3,721000.0,2025-08-13
+sale_00082,dxbconnect,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,792.3,860000.0,2025-08-12
+sale_00083,dxbconnect,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,801.3,776000.0,2025-08-25
+sale_00084,adre,Dubai,Jumeirah Village Circle,Pantheon,apartment,2,1198.7,1263000.0,2025-09-17
+sale_00085,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,2,1162.2,1233000.0,2025-08-04
+sale_00086,dxbconnect,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,998.3,1031000.0,2026-03-14
+sale_00087,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,2,1153.7,1062000.0,2026-01-12
+sale_00088,adre,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1302.3,1221000.0,2025-09-18
+sale_00089,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,2,1175.7,1143000.0,2026-02-25
+sale_00090,dxbconnect,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1272.0,1390000.0,2025-09-05
+sale_00091,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1211.1,1427000.0,2025-10-18
+sale_00092,dxbconnect,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1238.6,1274000.0,2026-05-18
+sale_00093,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1250.1,1204000.0,2025-10-03
+sale_00094,adre,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,2,1166.5,1325000.0,2025-10-30
+sale_00095,dxbconnect,Dubai,Jumeirah Village Circle,Pantheon,apartment,2,1231.7,1151000.0,2026-04-24
+sale_00096,adre,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1097.0,1110000.0,2026-01-02
+sale_00097,dxbconnect,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,2,1130.5,1103000.0,2026-03-13
+sale_00098,adre,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1575.9,1577000.0,2026-04-13
+sale_00099,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1817.8,1990000.0,2025-12-25
+sale_00100,dxbconnect,Dubai,Jumeirah Village Circle,Pantheon,apartment,3,1731.0,1827000.0,2025-12-07
+sale_00101,adre,Dubai,Jumeirah Village Circle,Pantheon,apartment,3,1489.5,1499000.0,2026-05-01
+sale_00102,adre,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1538.7,1783000.0,2025-09-20
+sale_00103,adre,Dubai,Jumeirah Village Circle,Pantheon,apartment,3,1641.8,1822000.0,2026-02-12
+sale_00104,adre,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,3,1723.8,1840000.0,2025-08-27
+sale_00105,adre,Dubai,Jumeirah Village Circle,Pantheon,apartment,3,1685.0,1750000.0,2026-04-21
+sale_00106,dxbconnect,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1802.0,1752000.0,2026-04-28
+sale_00107,dxbconnect,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1624.2,1607000.0,2025-09-02
+sale_00108,adre,Dubai,Jumeirah Village Circle,Pantheon,apartment,3,1786.1,1877000.0,2026-06-12
+sale_00109,dxbconnect,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,3,1785.9,1948000.0,2025-08-07
+sale_00110,adre,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1679.1,1516000.0,2026-06-02
+sale_00111,dxbconnect,Dubai,Jumeirah Village Circle,Pantheon,apartment,3,1711.0,1961000.0,2025-08-16
+sale_00112,dld,Dubai,Business Bay,Merano,apartment,0,425.5,661000.0,2026-06-09
+sale_00113,dld,Dubai,Business Bay,Merano,apartment,0,474.5,846000.0,2026-05-04
+sale_00114,dxbconnect,Dubai,Business Bay,Executive Towers,apartment,0,396.2,696000.0,2025-09-03
+sale_00115,dxbconnect,Dubai,Business Bay,Merano,apartment,0,479.4,847000.0,2026-05-11
+sale_00116,dld,Dubai,Business Bay,Executive Towers,apartment,0,466.3,846000.0,2025-12-30
+sale_00117,dld,Dubai,Business Bay,Executive Towers,apartment,0,465.4,861000.0,2025-07-16
+sale_00118,dld,Dubai,Business Bay,Executive Towers,apartment,0,474.4,815000.0,2026-04-17
+sale_00119,dld,Dubai,Business Bay,Damac Maison,apartment,0,405.0,644000.0,2026-03-18
+sale_00120,dxbconnect,Dubai,Business Bay,Damac Maison,apartment,0,395.6,659000.0,2025-06-25
+sale_00121,dxbconnect,Dubai,Business Bay,Damac Maison,apartment,0,465.5,877000.0,2025-08-12
+sale_00122,adre,Dubai,Business Bay,Merano,apartment,0,458.1,878000.0,2026-05-13
+sale_00123,dxbconnect,Dubai,Business Bay,Executive Towers,apartment,0,443.6,696000.0,2026-04-04
+sale_00124,adre,Dubai,Business Bay,Damac Maison,apartment,0,450.1,832000.0,2025-09-13
+sale_00125,adre,Dubai,Business Bay,Executive Towers,apartment,0,470.8,764000.0,2026-05-29
+sale_00126,adre,Dubai,Business Bay,Executive Towers,apartment,1,773.9,1181000.0,2026-01-29
+sale_00127,dld,Dubai,Business Bay,Merano,apartment,1,755.0,1222000.0,2025-12-28
+sale_00128,dxbconnect,Dubai,Business Bay,Merano,apartment,1,800.0,1381000.0,2026-01-02
+sale_00129,dld,Dubai,Business Bay,Merano,apartment,1,841.8,1438000.0,2025-11-15
+sale_00130,adre,Dubai,Business Bay,Damac Maison,apartment,1,829.9,1419000.0,2026-04-17
+sale_00131,dld,Dubai,Business Bay,Damac Maison,apartment,1,773.9,1387000.0,2025-12-22
+sale_00132,dxbconnect,Dubai,Business Bay,Executive Towers,apartment,1,877.2,1543000.0,2026-05-10
+sale_00133,dld,Dubai,Business Bay,Merano,apartment,1,740.4,1326000.0,2025-10-25
+sale_00134,dxbconnect,Dubai,Business Bay,Executive Towers,apartment,1,794.7,1310000.0,2025-07-02
+sale_00135,adre,Dubai,Business Bay,Executive Towers,apartment,1,727.7,1233000.0,2026-01-12
+sale_00136,dld,Dubai,Business Bay,Merano,apartment,1,870.7,1642000.0,2026-02-05
+sale_00137,adre,Dubai,Business Bay,Merano,apartment,1,760.9,1305000.0,2025-10-18
+sale_00138,adre,Dubai,Business Bay,Merano,apartment,1,809.0,1382000.0,2026-04-03
+sale_00139,adre,Dubai,Business Bay,Damac Maison,apartment,1,780.3,1614000.0,2025-12-08
+sale_00140,dld,Dubai,Business Bay,Damac Maison,apartment,2,1281.5,2257000.0,2025-08-07
+sale_00141,adre,Dubai,Business Bay,Executive Towers,apartment,2,1167.9,1932000.0,2026-02-19
+sale_00142,dxbconnect,Dubai,Business Bay,Damac Maison,apartment,2,1119.7,2051000.0,2025-08-18
+sale_00143,dld,Dubai,Business Bay,Merano,apartment,2,1159.7,2094000.0,2026-04-11
+sale_00144,dxbconnect,Dubai,Business Bay,Executive Towers,apartment,2,1246.2,1901000.0,2026-01-05
+sale_00145,dxbconnect,Dubai,Business Bay,Damac Maison,apartment,2,1074.1,2059000.0,2026-04-18
+sale_00146,adre,Dubai,Business Bay,Merano,apartment,2,1129.1,1768000.0,2025-12-12
+sale_00147,dxbconnect,Dubai,Business Bay,Merano,apartment,2,1351.4,2437000.0,2026-02-20
+sale_00148,dxbconnect,Dubai,Business Bay,Merano,apartment,2,1212.9,1891000.0,2025-07-11
+sale_00149,adre,Dubai,Business Bay,Damac Maison,apartment,2,1173.9,2168000.0,2025-12-04
+sale_00150,adre,Dubai,Business Bay,Damac Maison,apartment,2,1227.3,2044000.0,2025-07-13
+sale_00151,dxbconnect,Dubai,Business Bay,Damac Maison,apartment,2,1111.3,1824000.0,2025-06-17
+sale_00152,dxbconnect,Dubai,Business Bay,Merano,apartment,2,1166.5,2242000.0,2026-02-14
+sale_00153,dld,Dubai,Business Bay,Merano,apartment,2,1189.3,2119000.0,2025-12-24
+sale_00154,dld,Dubai,Business Bay,Damac Maison,apartment,3,1663.1,2719000.0,2025-07-05
+sale_00155,dld,Dubai,Business Bay,Executive Towers,apartment,3,1540.3,2816000.0,2025-12-17
+sale_00156,dld,Dubai,Business Bay,Executive Towers,apartment,3,1817.1,2647000.0,2026-03-07
+sale_00157,dld,Dubai,Business Bay,Merano,apartment,3,1615.7,2876000.0,2025-10-20
+sale_00158,adre,Dubai,Business Bay,Executive Towers,apartment,3,1674.2,2897000.0,2025-09-22
+sale_00159,adre,Dubai,Business Bay,Damac Maison,apartment,3,1772.1,3245000.0,2025-08-09
+sale_00160,dxbconnect,Dubai,Business Bay,Damac Maison,apartment,3,1756.8,3138000.0,2026-01-29
+sale_00161,adre,Dubai,Business Bay,Executive Towers,apartment,3,1668.7,2766000.0,2025-08-07
+sale_00162,dld,Dubai,Business Bay,Merano,apartment,3,1573.1,2582000.0,2025-06-14
+sale_00163,dxbconnect,Dubai,Business Bay,Executive Towers,apartment,3,1705.2,2824000.0,2026-02-10
+sale_00164,adre,Dubai,Business Bay,Damac Maison,apartment,3,1775.4,3072000.0,2025-10-04
+sale_00165,adre,Dubai,Business Bay,Merano,apartment,3,1719.2,2704000.0,2026-06-11
+sale_00166,adre,Dubai,Business Bay,Merano,apartment,3,1726.7,2831000.0,2025-09-26
+sale_00167,dxbconnect,Dubai,Business Bay,Damac Maison,apartment,3,1836.3,3494000.0,2025-09-09
+sale_00168,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,0,470.0,879000.0,2025-10-29
+sale_00169,dxbconnect,Dubai,Downtown Dubai,The Address,apartment,0,430.4,1017000.0,2025-09-19
+sale_00170,dxbconnect,Dubai,Downtown Dubai,The Address,apartment,0,427.5,905000.0,2026-01-12
+sale_00171,dxbconnect,Dubai,Downtown Dubai,Boulevard Point,apartment,0,426.3,976000.0,2025-09-19
+sale_00172,adre,Dubai,Downtown Dubai,Boulevard Point,apartment,0,414.4,849000.0,2025-06-27
+sale_00173,adre,Dubai,Downtown Dubai,Burj Vista,apartment,0,482.4,1104000.0,2025-06-22
+sale_00174,adre,Dubai,Downtown Dubai,Burj Vista,apartment,0,474.2,1024000.0,2026-03-24
+sale_00175,adre,Dubai,Downtown Dubai,The Address,apartment,0,442.4,1033000.0,2025-08-17
+sale_00176,dxbconnect,Dubai,Downtown Dubai,Burj Vista,apartment,0,472.4,937000.0,2026-01-30
+sale_00177,dld,Dubai,Downtown Dubai,The Address,apartment,0,466.5,945000.0,2025-09-04
+sale_00178,adre,Dubai,Downtown Dubai,Boulevard Point,apartment,0,437.7,896000.0,2026-01-25
+sale_00179,dld,Dubai,Downtown Dubai,Burj Vista,apartment,0,443.1,1098000.0,2025-08-04
+sale_00180,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,0,460.9,1057000.0,2025-12-02
+sale_00181,dld,Dubai,Downtown Dubai,The Address,apartment,0,445.3,973000.0,2025-10-11
+sale_00182,adre,Dubai,Downtown Dubai,The Address,apartment,1,731.3,1368000.0,2025-09-02
+sale_00183,dxbconnect,Dubai,Downtown Dubai,The Address,apartment,1,761.0,1480000.0,2026-01-20
+sale_00184,dxbconnect,Dubai,Downtown Dubai,Burj Vista,apartment,1,766.6,1702000.0,2025-10-09
+sale_00185,dld,Dubai,Downtown Dubai,The Address,apartment,1,804.5,1621000.0,2025-08-23
+sale_00186,dxbconnect,Dubai,Downtown Dubai,The Address,apartment,1,876.1,1995000.0,2025-12-01
+sale_00187,dld,Dubai,Downtown Dubai,Burj Vista,apartment,1,808.8,1599000.0,2026-01-21
+sale_00188,adre,Dubai,Downtown Dubai,Burj Vista,apartment,1,761.7,1936000.0,2026-05-07
+sale_00189,adre,Dubai,Downtown Dubai,The Address,apartment,1,728.3,1706000.0,2026-06-07
+sale_00190,dxbconnect,Dubai,Downtown Dubai,The Address,apartment,1,739.3,1684000.0,2025-12-31
+sale_00191,adre,Dubai,Downtown Dubai,The Address,apartment,1,700.8,1575000.0,2025-11-28
+sale_00192,adre,Dubai,Downtown Dubai,Burj Vista,apartment,1,764.0,1709000.0,2025-11-21
+sale_00193,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,1,802.6,1740000.0,2025-09-16
+sale_00194,dld,Dubai,Downtown Dubai,Burj Vista,apartment,1,816.7,1873000.0,2025-08-06
+sale_00195,dld,Dubai,Downtown Dubai,The Address,apartment,1,819.1,1888000.0,2025-07-29
+sale_00196,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,2,1207.3,2796000.0,2025-11-12
+sale_00197,dxbconnect,Dubai,Downtown Dubai,Boulevard Point,apartment,2,1237.8,2907000.0,2025-06-15
+sale_00198,adre,Dubai,Downtown Dubai,Burj Vista,apartment,2,1143.1,2494000.0,2026-04-12
+sale_00199,adre,Dubai,Downtown Dubai,Burj Vista,apartment,2,1286.1,2801000.0,2025-06-30
+sale_00200,dld,Dubai,Downtown Dubai,Burj Vista,apartment,2,1202.2,2658000.0,2025-07-06
+sale_00201,dxbconnect,Dubai,Downtown Dubai,Burj Vista,apartment,2,1121.5,2385000.0,2026-03-16
+sale_00202,dld,Dubai,Downtown Dubai,The Address,apartment,2,1111.8,2341000.0,2025-08-29
+sale_00203,dld,Dubai,Downtown Dubai,The Address,apartment,2,1162.6,2427000.0,2026-01-24
+sale_00204,adre,Dubai,Downtown Dubai,Burj Vista,apartment,2,1254.3,2629000.0,2025-06-22
+sale_00205,dld,Dubai,Downtown Dubai,Burj Vista,apartment,2,1164.3,2738000.0,2026-06-13
+sale_00206,dld,Dubai,Downtown Dubai,Burj Vista,apartment,2,1229.7,2566000.0,2026-05-04
+sale_00207,adre,Dubai,Downtown Dubai,The Address,apartment,2,1093.9,2192000.0,2026-01-07
+sale_00208,adre,Dubai,Downtown Dubai,Burj Vista,apartment,2,1155.2,2413000.0,2026-03-22
+sale_00209,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,2,1018.5,2052000.0,2025-10-07
+sale_00210,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,3,1849.0,4243000.0,2025-12-19
+sale_00211,dld,Dubai,Downtown Dubai,Burj Vista,apartment,3,1585.8,3680000.0,2026-04-20
+sale_00212,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,3,1756.0,3899000.0,2026-05-12
+sale_00213,dld,Dubai,Downtown Dubai,Burj Vista,apartment,3,1779.3,4230000.0,2026-05-04
+sale_00214,dld,Dubai,Downtown Dubai,The Address,apartment,3,1470.8,3541000.0,2026-03-21
+sale_00215,adre,Dubai,Downtown Dubai,Burj Vista,apartment,3,1510.3,3422000.0,2025-08-06
+sale_00216,dxbconnect,Dubai,Downtown Dubai,Boulevard Point,apartment,3,1883.4,4391000.0,2025-06-15
+sale_00217,dxbconnect,Dubai,Downtown Dubai,The Address,apartment,3,1701.2,3748000.0,2025-12-30
+sale_00218,dld,Dubai,Downtown Dubai,The Address,apartment,3,1909.0,4832000.0,2025-09-19
+sale_00219,dxbconnect,Dubai,Downtown Dubai,Burj Vista,apartment,3,1787.2,4201000.0,2025-11-06
+sale_00220,adre,Dubai,Downtown Dubai,Burj Vista,apartment,3,1827.5,4295000.0,2025-08-17
+sale_00221,dld,Dubai,Downtown Dubai,The Address,apartment,3,1734.8,3416000.0,2026-06-07
+sale_00222,dxbconnect,Dubai,Downtown Dubai,Boulevard Point,apartment,3,1643.3,3366000.0,2026-02-23
+sale_00223,dxbconnect,Dubai,Downtown Dubai,Burj Vista,apartment,3,1838.6,4211000.0,2025-11-09
+sale_00224,dxbconnect,Dubai,Palm Jumeirah,Palme Couture,apartment,0,460.3,1167000.0,2026-05-23
+sale_00225,dld,Dubai,Palm Jumeirah,Shoreline,apartment,0,461.7,1049000.0,2026-06-12
+sale_00226,adre,Dubai,Palm Jumeirah,Azure Residences,apartment,0,457.8,1289000.0,2026-01-23
+sale_00227,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,0,466.9,1171000.0,2025-11-30
+sale_00228,dxbconnect,Dubai,Palm Jumeirah,Shoreline,apartment,0,430.1,1064000.0,2026-01-01
+sale_00229,adre,Dubai,Palm Jumeirah,Palme Couture,apartment,0,474.1,1218000.0,2025-08-12
+sale_00230,dld,Dubai,Palm Jumeirah,Shoreline,apartment,0,456.6,1221000.0,2025-08-08
+sale_00231,dxbconnect,Dubai,Palm Jumeirah,Shoreline,apartment,0,461.1,1085000.0,2025-11-23
+sale_00232,adre,Dubai,Palm Jumeirah,Palme Couture,apartment,0,469.5,1205000.0,2025-09-08
+sale_00233,adre,Dubai,Palm Jumeirah,Shoreline,apartment,0,456.4,1042000.0,2026-01-11
+sale_00234,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,0,466.0,1149000.0,2026-02-03
+sale_00235,adre,Dubai,Palm Jumeirah,Palme Couture,apartment,0,446.1,1066000.0,2025-07-24
+sale_00236,adre,Dubai,Palm Jumeirah,Shoreline,apartment,0,448.9,1141000.0,2026-02-02
+sale_00237,dxbconnect,Dubai,Palm Jumeirah,Palme Couture,apartment,0,446.7,1229000.0,2025-08-04
+sale_00238,adre,Dubai,Palm Jumeirah,Azure Residences,apartment,1,794.9,1826000.0,2025-07-27
+sale_00239,dxbconnect,Dubai,Palm Jumeirah,Azure Residences,apartment,1,781.4,1958000.0,2025-12-07
+sale_00240,adre,Dubai,Palm Jumeirah,Palme Couture,apartment,1,836.8,1701000.0,2025-07-02
+sale_00241,adre,Dubai,Palm Jumeirah,Palme Couture,apartment,1,727.2,1770000.0,2025-08-02
+sale_00242,dld,Dubai,Palm Jumeirah,Shoreline,apartment,1,738.1,1803000.0,2026-01-07
+sale_00243,dxbconnect,Dubai,Palm Jumeirah,Palme Couture,apartment,1,764.3,2166000.0,2026-01-27
+sale_00244,adre,Dubai,Palm Jumeirah,Azure Residences,apartment,1,862.1,2141000.0,2025-10-28
+sale_00245,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,1,928.8,2460000.0,2026-01-15
+sale_00246,adre,Dubai,Palm Jumeirah,Azure Residences,apartment,1,825.3,2011000.0,2026-05-20
+sale_00247,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,1,781.5,1992000.0,2026-04-27
+sale_00248,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,1,795.8,2049000.0,2026-06-05
+sale_00249,dxbconnect,Dubai,Palm Jumeirah,Azure Residences,apartment,1,734.0,1650000.0,2025-09-11
+sale_00250,adre,Dubai,Palm Jumeirah,Shoreline,apartment,1,783.9,1865000.0,2025-06-22
+sale_00251,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,1,761.0,1825000.0,2026-03-11
+sale_00252,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,2,1199.7,2788000.0,2026-03-16
+sale_00253,adre,Dubai,Palm Jumeirah,Shoreline,apartment,2,1046.1,2257000.0,2026-03-13
+sale_00254,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,2,1164.4,2890000.0,2025-09-04
+sale_00255,dxbconnect,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1247.1,2875000.0,2025-07-01
+sale_00256,dxbconnect,Dubai,Palm Jumeirah,Shoreline,apartment,2,1102.6,2812000.0,2026-03-24
+sale_00257,adre,Dubai,Palm Jumeirah,Palme Couture,apartment,2,1002.9,2208000.0,2025-10-31
+sale_00258,dld,Dubai,Palm Jumeirah,Shoreline,apartment,2,1140.5,2770000.0,2025-12-30
+sale_00259,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1254.3,2987000.0,2025-09-18
+sale_00260,dxbconnect,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1213.9,2709000.0,2026-05-04
+sale_00261,dxbconnect,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1169.6,3249000.0,2025-07-05
+sale_00262,dxbconnect,Dubai,Palm Jumeirah,Shoreline,apartment,2,1325.9,3262000.0,2026-01-24
+sale_00263,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1103.8,2614000.0,2026-01-14
+sale_00264,dxbconnect,Dubai,Palm Jumeirah,Palme Couture,apartment,2,1219.3,2915000.0,2026-04-26
+sale_00265,dxbconnect,Dubai,Palm Jumeirah,Palme Couture,apartment,2,1281.7,3323000.0,2026-03-15
+sale_00266,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,3,1508.2,3687000.0,2026-05-17
+sale_00267,dxbconnect,Dubai,Palm Jumeirah,Shoreline,apartment,3,1641.7,4057000.0,2025-12-16
+sale_00268,dxbconnect,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1682.7,4329000.0,2026-02-02
+sale_00269,dld,Dubai,Palm Jumeirah,Shoreline,apartment,3,1700.6,4385000.0,2025-12-20
+sale_00270,adre,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1868.0,4771000.0,2025-06-28
+sale_00271,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1691.0,4506000.0,2026-05-01
+sale_00272,dxbconnect,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1721.6,4571000.0,2026-05-18
+sale_00273,adre,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1729.5,4216000.0,2026-04-06
+sale_00274,dxbconnect,Dubai,Palm Jumeirah,Palme Couture,apartment,3,1401.1,3597000.0,2026-01-29
+sale_00275,adre,Dubai,Palm Jumeirah,Palme Couture,apartment,3,1746.1,4511000.0,2026-02-09
+sale_00276,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,3,1627.4,4459000.0,2025-10-16
+sale_00277,adre,Dubai,Palm Jumeirah,Palme Couture,apartment,3,1699.8,4371000.0,2026-03-28
+sale_00278,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1713.4,3983000.0,2025-09-11
+sale_00279,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,3,1560.8,3832000.0,2026-05-22
+sale_00280,adre,Dubai,Dubai Hills Estate,Sidra,townhouse,3,2322.0,3608000.0,2025-08-30
+sale_00281,adre,Dubai,Dubai Hills Estate,Maple,townhouse,3,2229.5,3605000.0,2026-02-17
+sale_00282,dld,Dubai,Dubai Hills Estate,Maple,townhouse,3,2062.5,3444000.0,2025-10-16
+sale_00283,adre,Dubai,Dubai Hills Estate,Maple,townhouse,3,2258.6,3614000.0,2026-02-08
+sale_00284,dxbconnect,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2230.3,3635000.0,2025-11-12
+sale_00285,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2014.6,3195000.0,2025-09-13
+sale_00286,dxbconnect,Dubai,Dubai Hills Estate,Maple,townhouse,3,2279.8,3459000.0,2026-04-12
+sale_00287,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2395.3,4179000.0,2025-09-17
+sale_00288,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2185.5,3471000.0,2025-11-10
+sale_00289,adre,Dubai,Dubai Hills Estate,Sidra,townhouse,3,2217.3,3635000.0,2025-10-20
+sale_00290,adre,Dubai,Dubai Hills Estate,Maple,townhouse,3,2103.7,3166000.0,2026-03-11
+sale_00291,dld,Dubai,Dubai Hills Estate,Sidra,townhouse,3,2244.9,3643000.0,2025-10-17
+sale_00292,dxbconnect,Dubai,Dubai Hills Estate,Sidra,townhouse,3,2299.8,3659000.0,2025-08-24
+sale_00293,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2133.9,2924000.0,2026-03-15
+sale_00294,dxbconnect,Dubai,Dubai Hills Estate,Sidra,townhouse,4,2534.6,3943000.0,2025-09-07
+sale_00295,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2800.4,4444000.0,2025-07-16
+sale_00296,adre,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2766.4,4473000.0,2025-09-06
+sale_00297,dxbconnect,Dubai,Dubai Hills Estate,Sidra,townhouse,4,2346.8,3647000.0,2025-10-28
+sale_00298,adre,Dubai,Dubai Hills Estate,Maple,townhouse,4,2869.4,4817000.0,2026-01-04
+sale_00299,dxbconnect,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2778.6,4148000.0,2025-07-29
+sale_00300,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2859.8,4260000.0,2025-08-08
+sale_00301,dxbconnect,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2545.3,4214000.0,2025-12-17
+sale_00302,dxbconnect,Dubai,Dubai Hills Estate,Sidra,townhouse,4,2716.5,3986000.0,2026-01-17
+sale_00303,dxbconnect,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2787.9,4032000.0,2025-06-21
+sale_00304,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2498.8,3818000.0,2026-05-06
+sale_00305,adre,Dubai,Dubai Hills Estate,Maple,townhouse,4,2476.9,4235000.0,2025-10-21
+sale_00306,adre,Dubai,Dubai Hills Estate,Maple,townhouse,4,2766.6,4324000.0,2026-02-01
+sale_00307,adre,Dubai,Dubai Hills Estate,Sidra,townhouse,4,2935.6,4405000.0,2025-08-03
+sale_00308,dld,Dubai,Arabian Ranches,Alvorada,villa,3,2787.9,3887000.0,2025-12-30
+sale_00309,dxbconnect,Dubai,Arabian Ranches,Saheel,villa,3,3151.5,4388000.0,2025-09-04
+sale_00310,adre,Dubai,Arabian Ranches,Saheel,villa,3,2706.1,3728000.0,2026-03-01
+sale_00311,dld,Dubai,Arabian Ranches,Alvorada,villa,3,2939.5,4495000.0,2025-10-30
+sale_00312,adre,Dubai,Arabian Ranches,Palmera,villa,3,2797.9,4311000.0,2025-07-06
+sale_00313,dld,Dubai,Arabian Ranches,Alvorada,villa,3,2975.3,4183000.0,2025-07-26
+sale_00314,dxbconnect,Dubai,Arabian Ranches,Saheel,villa,3,2829.0,3573000.0,2025-11-15
+sale_00315,dld,Dubai,Arabian Ranches,Palmera,villa,3,2851.9,3826000.0,2025-12-13
+sale_00316,dld,Dubai,Arabian Ranches,Saheel,villa,3,3038.3,4307000.0,2026-06-05
+sale_00317,dxbconnect,Dubai,Arabian Ranches,Saheel,villa,3,2888.3,4491000.0,2025-09-21
+sale_00318,dld,Dubai,Arabian Ranches,Alvorada,villa,3,3069.4,4671000.0,2026-04-10
+sale_00319,adre,Dubai,Arabian Ranches,Saheel,villa,3,3004.1,4359000.0,2026-02-05
+sale_00320,dxbconnect,Dubai,Arabian Ranches,Saheel,villa,3,3021.9,3829000.0,2025-07-07
+sale_00321,adre,Dubai,Arabian Ranches,Saheel,villa,3,3046.2,4709000.0,2025-08-25
+sale_00322,dld,Dubai,Arabian Ranches,Palmera,villa,4,3351.1,4613000.0,2025-11-17
+sale_00323,dxbconnect,Dubai,Arabian Ranches,Palmera,villa,4,3844.9,5247000.0,2025-12-01
+sale_00324,dld,Dubai,Arabian Ranches,Palmera,villa,4,3386.5,4891000.0,2026-05-13
+sale_00325,adre,Dubai,Arabian Ranches,Alvorada,villa,4,3549.1,4905000.0,2025-10-18
+sale_00326,dld,Dubai,Arabian Ranches,Palmera,villa,4,3982.6,5537000.0,2026-05-21
+sale_00327,dxbconnect,Dubai,Arabian Ranches,Alvorada,villa,4,3406.9,4682000.0,2025-08-18
+sale_00328,adre,Dubai,Arabian Ranches,Saheel,villa,4,3898.4,5395000.0,2025-11-11
+sale_00329,dld,Dubai,Arabian Ranches,Alvorada,villa,4,3608.0,5020000.0,2025-09-13
+sale_00330,adre,Dubai,Arabian Ranches,Palmera,villa,4,3971.3,4657000.0,2025-10-28
+sale_00331,dld,Dubai,Arabian Ranches,Saheel,villa,4,3603.1,5288000.0,2026-05-13
+sale_00332,dld,Dubai,Arabian Ranches,Saheel,villa,4,3517.0,5275000.0,2026-05-22
+sale_00333,adre,Dubai,Arabian Ranches,Saheel,villa,4,3807.9,5433000.0,2025-10-18
+sale_00334,dld,Dubai,Arabian Ranches,Saheel,villa,4,3750.7,5292000.0,2025-07-01
+sale_00335,dxbconnect,Dubai,Arabian Ranches,Alvorada,villa,4,3070.6,3872000.0,2026-03-25
+sale_00336,dld,Dubai,Arabian Ranches,Saheel,villa,5,4401.9,6053000.0,2026-06-11
+sale_00337,adre,Dubai,Arabian Ranches,Alvorada,villa,5,4267.6,7002000.0,2025-09-27
+sale_00338,dxbconnect,Dubai,Arabian Ranches,Alvorada,villa,5,4388.8,5988000.0,2026-01-29
+sale_00339,adre,Dubai,Arabian Ranches,Palmera,villa,5,4468.4,5819000.0,2025-09-10
+sale_00340,dld,Dubai,Arabian Ranches,Alvorada,villa,5,4067.9,5391000.0,2025-09-11
+sale_00341,dld,Dubai,Arabian Ranches,Alvorada,villa,5,4612.7,5861000.0,2025-11-20
+sale_00342,adre,Dubai,Arabian Ranches,Palmera,villa,5,4283.9,6263000.0,2026-06-10
+sale_00343,dld,Dubai,Arabian Ranches,Saheel,villa,5,4414.6,6339000.0,2026-04-12
+sale_00344,dxbconnect,Dubai,Arabian Ranches,Alvorada,villa,5,4461.9,6916000.0,2025-08-11
+sale_00345,dxbconnect,Dubai,Arabian Ranches,Alvorada,villa,5,4702.5,7475000.0,2025-11-12
+sale_00346,dld,Dubai,Arabian Ranches,Palmera,villa,5,4168.4,5457000.0,2025-07-23
+sale_00347,dld,Dubai,Arabian Ranches,Alvorada,villa,5,4142.9,5603000.0,2026-04-10
+sale_00348,dld,Dubai,Arabian Ranches,Palmera,villa,5,4472.4,5976000.0,2026-02-08
+sale_00349,adre,Dubai,Arabian Ranches,Alvorada,villa,5,4262.5,6921000.0,2026-03-09
+sale_00350,dxbconnect,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,484.5,561000.0,2026-06-02
+sale_00351,dxbconnect,Abu Dhabi,Al Reem Island,Sun Tower,apartment,0,386.8,419000.0,2026-05-02
+sale_00352,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,397.9,438000.0,2025-06-27
+sale_00353,dxbconnect,Abu Dhabi,Al Reem Island,Sun Tower,apartment,0,495.6,612000.0,2025-06-15
+sale_00354,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,0,435.1,541000.0,2025-12-25
+sale_00355,dxbconnect,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,475.4,593000.0,2026-04-12
+sale_00356,adre,Abu Dhabi,Al Reem Island,Sky Tower,apartment,0,429.0,472000.0,2026-02-28
+sale_00357,dxbconnect,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,462.4,568000.0,2025-11-12
+sale_00358,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,0,460.7,575000.0,2025-06-20
+sale_00359,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,0,495.2,553000.0,2026-02-03
+sale_00360,dxbconnect,Abu Dhabi,Al Reem Island,Sky Tower,apartment,0,445.3,573000.0,2026-01-26
+sale_00361,dxbconnect,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,410.1,486000.0,2026-02-13
+sale_00362,adre,Abu Dhabi,Al Reem Island,Sky Tower,apartment,0,486.7,646000.0,2026-02-27
+sale_00363,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,440.0,505000.0,2026-02-07
+sale_00364,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,1,778.2,1048000.0,2025-12-13
+sale_00365,dxbconnect,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,784.6,994000.0,2025-11-20
+sale_00366,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,777.7,926000.0,2025-06-24
+sale_00367,dxbconnect,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,810.4,1013000.0,2026-05-25
+sale_00368,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,847.8,991000.0,2025-07-12
+sale_00369,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,781.1,898000.0,2025-10-08
+sale_00370,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,797.0,942000.0,2026-04-19
+sale_00371,dxbconnect,Abu Dhabi,Al Reem Island,Sky Tower,apartment,1,685.7,869000.0,2026-06-12
+sale_00372,dxbconnect,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,791.7,862000.0,2025-06-18
+sale_00373,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,818.6,994000.0,2026-04-16
+sale_00374,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,1,761.5,778000.0,2026-03-18
+sale_00375,dxbconnect,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,706.3,808000.0,2026-04-06
+sale_00376,adre,Abu Dhabi,Al Reem Island,Sky Tower,apartment,1,734.8,885000.0,2026-05-02
+sale_00377,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,1,808.7,1022000.0,2025-11-19
+sale_00378,dxbconnect,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1004.4,1121000.0,2025-07-07
+sale_00379,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1155.4,1272000.0,2025-08-27
+sale_00380,dxbconnect,Abu Dhabi,Al Reem Island,Sun Tower,apartment,2,1132.2,1397000.0,2025-09-20
+sale_00381,dxbconnect,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1165.6,1436000.0,2025-12-26
+sale_00382,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1264.3,1436000.0,2026-05-03
+sale_00383,adre,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1069.3,1304000.0,2025-12-27
+sale_00384,adre,Abu Dhabi,Al Reem Island,Sun Tower,apartment,2,1200.7,1281000.0,2025-11-16
+sale_00385,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1047.0,1162000.0,2025-07-03
+sale_00386,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1199.1,1480000.0,2026-03-16
+sale_00387,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1226.6,1751000.0,2025-10-25
+sale_00388,adre,Abu Dhabi,Al Reem Island,Sun Tower,apartment,2,1123.5,1389000.0,2026-03-31
+sale_00389,adre,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1106.9,1543000.0,2026-05-30
+sale_00390,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1128.2,1441000.0,2026-01-23
+sale_00391,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1219.8,1331000.0,2026-05-02
+sale_00392,dxbconnect,Abu Dhabi,Al Reem Island,Sun Tower,apartment,3,1773.6,2413000.0,2025-09-23
+sale_00393,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,3,1648.3,1921000.0,2026-01-20
+sale_00394,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,3,1661.5,2122000.0,2026-02-28
+sale_00395,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,3,1661.3,2046000.0,2025-06-27
+sale_00396,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,3,1835.5,2395000.0,2025-11-28
+sale_00397,dxbconnect,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1784.6,2202000.0,2025-07-04
+sale_00398,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1697.5,2089000.0,2026-01-23
+sale_00399,adre,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1729.7,2290000.0,2025-09-29
+sale_00400,dxbconnect,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1407.6,1652000.0,2026-03-03
+sale_00401,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,3,1709.6,2231000.0,2026-05-16
+sale_00402,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,3,1734.3,1948000.0,2025-08-13
+sale_00403,adre,Abu Dhabi,Al Reem Island,Marina Heights,apartment,3,1644.7,2037000.0,2026-03-30
+sale_00404,adre,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1890.0,2364000.0,2025-10-14
+sale_00405,dxbconnect,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1556.2,2022000.0,2026-05-27
+sale_00406,dld,Abu Dhabi,Yas Island,Ansam,apartment,0,454.4,636000.0,2026-04-20
+sale_00407,adre,Abu Dhabi,Yas Island,Mayan,apartment,0,467.1,708000.0,2025-10-28
+sale_00408,dxbconnect,Abu Dhabi,Yas Island,Mayan,apartment,0,474.2,667000.0,2025-10-19
+sale_00409,dxbconnect,Abu Dhabi,Yas Island,Ansam,apartment,0,494.8,786000.0,2026-05-11
+sale_00410,adre,Abu Dhabi,Yas Island,Water's Edge,apartment,0,521.5,809000.0,2025-08-07
+sale_00411,adre,Abu Dhabi,Yas Island,Mayan,apartment,0,454.0,649000.0,2026-04-08
+sale_00412,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,0,498.7,732000.0,2026-04-15
+sale_00413,adre,Abu Dhabi,Yas Island,Water's Edge,apartment,0,485.4,736000.0,2026-04-13
+sale_00414,dxbconnect,Abu Dhabi,Yas Island,Ansam,apartment,0,452.5,613000.0,2025-11-11
+sale_00415,adre,Abu Dhabi,Yas Island,Water's Edge,apartment,0,466.5,672000.0,2026-01-05
+sale_00416,adre,Abu Dhabi,Yas Island,Mayan,apartment,0,378.4,501000.0,2025-07-12
+sale_00417,adre,Abu Dhabi,Yas Island,Ansam,apartment,0,470.0,615000.0,2026-03-22
+sale_00418,adre,Abu Dhabi,Yas Island,Water's Edge,apartment,0,456.0,675000.0,2026-06-07
+sale_00419,adre,Abu Dhabi,Yas Island,Water's Edge,apartment,0,451.5,627000.0,2026-05-22
+sale_00420,dxbconnect,Abu Dhabi,Yas Island,Water's Edge,apartment,1,803.9,1157000.0,2025-07-19
+sale_00421,adre,Abu Dhabi,Yas Island,Water's Edge,apartment,1,774.7,1304000.0,2025-10-26
+sale_00422,dxbconnect,Abu Dhabi,Yas Island,Water's Edge,apartment,1,863.6,1284000.0,2025-07-09
+sale_00423,dxbconnect,Abu Dhabi,Yas Island,Mayan,apartment,1,740.0,1108000.0,2025-08-21
+sale_00424,adre,Abu Dhabi,Yas Island,Mayan,apartment,1,781.9,1032000.0,2025-12-01
+sale_00425,dld,Abu Dhabi,Yas Island,Mayan,apartment,1,697.3,1019000.0,2026-04-02
+sale_00426,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,1,779.4,951000.0,2025-09-19
+sale_00427,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,1,878.1,1143000.0,2026-04-18
+sale_00428,dld,Abu Dhabi,Yas Island,Mayan,apartment,1,859.8,1286000.0,2026-04-05
+sale_00429,dxbconnect,Abu Dhabi,Yas Island,Water's Edge,apartment,1,795.4,1216000.0,2026-04-11
+sale_00430,dxbconnect,Abu Dhabi,Yas Island,Ansam,apartment,1,821.1,1076000.0,2026-01-22
+sale_00431,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,1,751.2,1088000.0,2025-11-25
+sale_00432,adre,Abu Dhabi,Yas Island,Mayan,apartment,1,729.8,1032000.0,2026-03-18
+sale_00433,dxbconnect,Abu Dhabi,Yas Island,Ansam,apartment,1,726.2,1105000.0,2026-01-01
+sale_00434,adre,Abu Dhabi,Yas Island,Mayan,apartment,2,1139.9,1581000.0,2026-04-08
+sale_00435,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1165.0,1748000.0,2026-03-18
+sale_00436,dld,Abu Dhabi,Yas Island,Ansam,apartment,2,1176.9,1945000.0,2026-01-31
+sale_00437,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1218.8,1878000.0,2026-01-30
+sale_00438,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1060.9,1561000.0,2026-01-31
+sale_00439,adre,Abu Dhabi,Yas Island,Mayan,apartment,2,1157.7,1451000.0,2025-06-14
+sale_00440,dxbconnect,Abu Dhabi,Yas Island,Water's Edge,apartment,2,985.3,1405000.0,2025-12-11
+sale_00441,dxbconnect,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1256.4,1975000.0,2026-06-08
+sale_00442,adre,Abu Dhabi,Yas Island,Mayan,apartment,2,1028.9,1556000.0,2025-12-31
+sale_00443,adre,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1249.5,1664000.0,2026-05-05
+sale_00444,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1112.1,1697000.0,2025-09-05
+sale_00445,dxbconnect,Abu Dhabi,Yas Island,Ansam,apartment,2,1287.4,1833000.0,2026-02-19
+sale_00446,dxbconnect,Abu Dhabi,Yas Island,Mayan,apartment,2,1196.8,1723000.0,2025-10-27
+sale_00447,dxbconnect,Abu Dhabi,Yas Island,Mayan,apartment,2,1053.9,1442000.0,2026-02-25
+sale_00448,dxbconnect,Abu Dhabi,Yas Island,Ansam,apartment,3,1740.3,2247000.0,2025-10-27
+sale_00449,dxbconnect,Abu Dhabi,Yas Island,Ansam,apartment,3,1662.7,2179000.0,2025-10-08
+sale_00450,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,3,1625.7,2485000.0,2025-06-21
+sale_00451,dld,Abu Dhabi,Yas Island,Ansam,apartment,3,1660.0,2431000.0,2025-10-09
+sale_00452,dxbconnect,Abu Dhabi,Yas Island,Ansam,apartment,3,1583.0,2144000.0,2026-02-09
+sale_00453,dxbconnect,Abu Dhabi,Yas Island,Water's Edge,apartment,3,1716.5,2616000.0,2026-01-07
+sale_00454,adre,Abu Dhabi,Yas Island,Water's Edge,apartment,3,1702.6,2431000.0,2025-11-14
+sale_00455,adre,Abu Dhabi,Yas Island,Water's Edge,apartment,3,1551.7,2051000.0,2026-06-12
+sale_00456,dxbconnect,Abu Dhabi,Yas Island,Ansam,apartment,3,1804.9,2211000.0,2026-03-29
+sale_00457,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,3,1684.4,2536000.0,2026-05-12
+sale_00458,dld,Abu Dhabi,Yas Island,Mayan,apartment,3,1687.8,2170000.0,2026-03-19
+sale_00459,dld,Abu Dhabi,Yas Island,Mayan,apartment,3,1599.5,2245000.0,2025-12-21
+sale_00460,dxbconnect,Abu Dhabi,Yas Island,Water's Edge,apartment,3,1556.2,2229000.0,2026-04-25
+sale_00461,dxbconnect,Abu Dhabi,Yas Island,Ansam,apartment,3,1746.2,2589000.0,2025-07-11
+sale_00462,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,0,503.5,908000.0,2025-06-25
+sale_00463,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,0,494.9,869000.0,2026-04-07
+sale_00464,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,0,497.5,1005000.0,2026-03-28
+sale_00465,dxbconnect,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,449.4,894000.0,2026-03-05
+sale_00466,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,0,458.8,900000.0,2025-12-08
+sale_00467,adre,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,540.4,923000.0,2026-01-19
+sale_00468,dxbconnect,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,439.0,891000.0,2026-01-06
+sale_00469,dxbconnect,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,492.4,973000.0,2025-08-07
+sale_00470,adre,Abu Dhabi,Saadiyat Island,Mamsha,apartment,0,395.3,857000.0,2025-08-04
+sale_00471,dxbconnect,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,426.3,783000.0,2025-09-09
+sale_00472,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,0,459.5,914000.0,2026-05-06
+sale_00473,dxbconnect,Abu Dhabi,Saadiyat Island,Mamsha,apartment,0,486.9,950000.0,2025-12-03
+sale_00474,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,0,419.4,847000.0,2025-10-30
+sale_00475,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,0,477.9,835000.0,2025-12-12
+sale_00476,dxbconnect,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,774.4,1634000.0,2025-08-14
+sale_00477,dxbconnect,Abu Dhabi,Saadiyat Island,Park View,apartment,1,756.3,1606000.0,2025-09-18
+sale_00478,dxbconnect,Abu Dhabi,Saadiyat Island,Mamsha,apartment,1,762.0,1461000.0,2026-02-11
+sale_00479,dxbconnect,Abu Dhabi,Saadiyat Island,Park View,apartment,1,697.6,1432000.0,2025-07-13
+sale_00480,adre,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,891.7,1605000.0,2025-10-16
+sale_00481,adre,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,835.8,1550000.0,2026-01-14
+sale_00482,adre,Abu Dhabi,Saadiyat Island,Park View,apartment,1,780.1,1551000.0,2025-11-06
+sale_00483,adre,Abu Dhabi,Saadiyat Island,Park View,apartment,1,705.2,1388000.0,2026-02-24
+sale_00484,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,769.4,1331000.0,2026-02-26
+sale_00485,adre,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,746.0,1426000.0,2026-03-25
+sale_00486,adre,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,732.0,1374000.0,2025-12-22
+sale_00487,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,1,810.0,1520000.0,2026-06-02
+sale_00488,dxbconnect,Abu Dhabi,Saadiyat Island,Mamsha,apartment,1,773.4,1600000.0,2026-02-02
+sale_00489,dxbconnect,Abu Dhabi,Saadiyat Island,Mamsha,apartment,1,772.7,1361000.0,2025-09-14
+sale_00490,adre,Abu Dhabi,Saadiyat Island,Soho Square,apartment,2,1192.6,2122000.0,2026-01-15
+sale_00491,dxbconnect,Abu Dhabi,Saadiyat Island,Soho Square,apartment,2,1348.1,2309000.0,2026-06-04
+sale_00492,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,2,1100.1,2071000.0,2026-01-29
+sale_00493,dxbconnect,Abu Dhabi,Saadiyat Island,Mamsha,apartment,2,1196.8,2645000.0,2025-12-31
+sale_00494,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1198.4,2505000.0,2025-08-12
+sale_00495,dxbconnect,Abu Dhabi,Saadiyat Island,Mamsha,apartment,2,1018.9,2076000.0,2026-04-23
+sale_00496,dxbconnect,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1108.3,2180000.0,2025-08-16
+sale_00497,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,2,1222.9,2161000.0,2026-05-12
+sale_00498,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1081.0,2010000.0,2026-05-12
+sale_00499,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1186.9,2162000.0,2025-11-14
+sale_00500,adre,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1185.2,2317000.0,2026-02-21
+sale_00501,adre,Abu Dhabi,Saadiyat Island,Soho Square,apartment,2,1164.8,2042000.0,2026-01-01
+sale_00502,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,2,1244.8,2195000.0,2026-01-11
+sale_00503,dxbconnect,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1187.9,2253000.0,2026-03-16
+sale_00504,dxbconnect,Abu Dhabi,Saadiyat Island,Park View,apartment,3,1751.7,3102000.0,2025-10-21
+sale_00505,dxbconnect,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1641.1,3270000.0,2026-02-21
+sale_00506,adre,Abu Dhabi,Saadiyat Island,Park View,apartment,3,1791.1,3303000.0,2026-05-04
+sale_00507,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1642.3,3449000.0,2025-11-23
+sale_00508,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1874.4,4235000.0,2025-07-11
+sale_00509,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1580.0,2913000.0,2025-10-07
+sale_00510,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1592.2,2876000.0,2026-01-06
+sale_00511,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,3,1785.9,3259000.0,2025-09-15
+sale_00512,dxbconnect,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1654.0,3242000.0,2025-11-28
+sale_00513,adre,Abu Dhabi,Saadiyat Island,Park View,apartment,3,1814.2,3611000.0,2025-12-16
+sale_00514,dxbconnect,Abu Dhabi,Saadiyat Island,Park View,apartment,3,1721.5,3093000.0,2026-05-01
+sale_00515,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1709.7,2765000.0,2025-07-12
+sale_00516,dxbconnect,Abu Dhabi,Saadiyat Island,Park View,apartment,3,1770.2,3745000.0,2025-12-08
+sale_00517,adre,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1730.8,3615000.0,2026-05-10
+sale_00518,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,459.8,633000.0,2025-11-29
+sale_00519,dxbconnect,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,451.0,595000.0,2026-04-18
+sale_00520,adre,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,444.4,581000.0,2026-04-03
+sale_00521,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,0,451.6,592000.0,2025-09-09
+sale_00522,dxbconnect,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,407.0,568000.0,2026-04-17
+sale_00523,dxbconnect,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,486.5,567000.0,2026-03-24
+sale_00524,dxbconnect,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,0,467.6,631000.0,2025-10-23
+sale_00525,adre,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,0,478.3,688000.0,2025-12-03
+sale_00526,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,452.8,521000.0,2026-02-16
+sale_00527,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,0,477.8,605000.0,2026-02-23
+sale_00528,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,483.8,724000.0,2025-07-13
+sale_00529,dxbconnect,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,0,480.6,651000.0,2026-02-16
+sale_00530,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,471.4,662000.0,2025-11-15
+sale_00531,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,452.9,675000.0,2026-02-12
+sale_00532,adre,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,752.5,1017000.0,2025-12-01
+sale_00533,dxbconnect,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,718.7,832000.0,2025-09-09
+sale_00534,dxbconnect,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,727.7,956000.0,2026-05-04
+sale_00535,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,1,790.8,1045000.0,2026-05-21
+sale_00536,dxbconnect,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,802.2,1031000.0,2026-06-05
+sale_00537,dxbconnect,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,798.4,972000.0,2026-01-02
+sale_00538,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,1,729.2,1082000.0,2025-10-28
+sale_00539,dxbconnect,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,1,787.4,1047000.0,2025-07-19
+sale_00540,dxbconnect,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,762.6,1046000.0,2025-08-22
+sale_00541,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,1,751.2,929000.0,2025-07-01
+sale_00542,dxbconnect,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,1,694.4,985000.0,2025-09-05
+sale_00543,adre,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,703.9,998000.0,2026-02-05
+sale_00544,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,1,758.6,1031000.0,2025-11-27
+sale_00545,adre,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,1,730.2,1000000.0,2025-08-22
+sale_00546,dxbconnect,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1218.4,1763000.0,2025-10-30
+sale_00547,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1027.4,1361000.0,2026-03-24
+sale_00548,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,2,1070.2,1491000.0,2026-04-24
+sale_00549,dxbconnect,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1140.7,1655000.0,2025-07-09
+sale_00550,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1170.8,1649000.0,2025-12-10
+sale_00551,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,2,1190.4,1554000.0,2025-07-18
+sale_00552,dxbconnect,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,2,1124.7,1573000.0,2026-05-20
+sale_00553,dxbconnect,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1264.3,1343000.0,2026-01-12
+sale_00554,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1252.6,1653000.0,2025-09-28
+sale_00555,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1252.7,1464000.0,2025-12-23
+sale_00556,dxbconnect,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1176.1,1455000.0,2026-04-27
+sale_00557,dxbconnect,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1241.3,1762000.0,2026-03-25
+sale_00558,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1151.4,1460000.0,2026-05-09
+sale_00559,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,2,1293.6,1742000.0,2025-08-07
+sale_00560,adre,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,3,1630.9,2078000.0,2026-04-29
+sale_00561,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1574.8,1802000.0,2026-04-20
+sale_00562,dxbconnect,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1516.1,1939000.0,2026-02-20
+sale_00563,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,3,1904.1,2581000.0,2026-03-01
+sale_00564,dxbconnect,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1518.8,1957000.0,2026-02-18
+sale_00565,dxbconnect,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,3,1792.6,2216000.0,2025-10-19
+sale_00566,dxbconnect,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1640.2,2240000.0,2026-03-02
+sale_00567,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,3,1675.9,2146000.0,2026-05-27
+sale_00568,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1724.3,2313000.0,2025-10-05
+sale_00569,adre,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1675.9,2214000.0,2026-06-02
+sale_00570,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1873.1,2291000.0,2025-09-09
+sale_00571,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1722.2,2581000.0,2025-12-29
+sale_00572,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1717.4,2228000.0,2025-08-08
+sale_00573,adre,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1619.8,2142000.0,2025-12-07

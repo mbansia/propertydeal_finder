@@ -1,0 +1,135 @@
+listing_id,source,url,city,area,building,property_type,bedrooms,size_sqft,price,listed_date
+reddit_00000,reddit,https://example.com/reddit/0,Dubai,Downtown Dubai,Burj Vista,apartment,3,1849.1,4116000.0,2026-06-12
+reddit_00001,reddit,https://example.com/reddit/1,Dubai,Downtown Dubai,Burj Vista,apartment,1,816.1,1921000.0,2026-06-09
+reddit_00002,reddit,https://example.com/reddit/2,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,715.4,803000.0,2026-06-04
+reddit_00003,reddit,https://example.com/reddit/3,Dubai,Jumeirah Village Circle,Belgravia,apartment,0,499.2,575000.0,2026-06-11
+reddit_00004,reddit,https://example.com/reddit/4,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1257.6,1417000.0,2026-06-09
+property_finder_00005,property_finder,https://example.com/property_finder/5,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1164.2,1742000.0,2026-06-07
+dubizzle_00006,dubizzle,https://example.com/dubizzle/6,Dubai,Dubai Marina,Cayan Tower,apartment,3,1790.7,3246000.0,2026-06-05
+dubizzle_00007,dubizzle,https://example.com/dubizzle/7,Abu Dhabi,Saadiyat Island,Park View,apartment,0,480.2,989000.0,2026-06-12
+dubizzle_00008,dubizzle,https://example.com/dubizzle/8,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,426.5,566000.0,2026-06-10
+reddit_00009,reddit,https://example.com/reddit/9,Dubai,Palm Jumeirah,Shoreline,apartment,0,458.8,1262000.0,2026-06-12
+property_finder_00010,property_finder,https://example.com/property_finder/10,Dubai,Dubai Marina,Princess Tower,apartment,3,1760.7,2979000.0,2026-06-06
+reddit_00011,reddit,https://example.com/reddit/11,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,3,1716.5,2639000.0,2026-06-06
+bayut_00012,bayut,https://example.com/bayut/12,Dubai,Palm Jumeirah,Azure Residences,apartment,1,805.5,1969000.0,2026-06-05
+bayut_00013,bayut,https://example.com/bayut/13,Dubai,Dubai Marina,Princess Tower,apartment,1,830.3,1454000.0,2026-06-11
+reddit_00014,reddit,https://example.com/reddit/14,Abu Dhabi,Al Reem Island,Sky Tower,apartment,1,777.2,971000.0,2026-06-11
+bayut_00015,bayut,https://example.com/bayut/15,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,3,1668.1,2128000.0,2026-06-07
+property_finder_00016,property_finder,https://example.com/property_finder/16,Dubai,Business Bay,Executive Towers,apartment,0,470.6,791000.0,2026-06-07
+property_finder_00017,property_finder,https://example.com/property_finder/17,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1681.0,3666000.0,2026-06-10
+bayut_00018,bayut,https://example.com/bayut/18,Abu Dhabi,Saadiyat Island,Park View,apartment,1,717.5,1534000.0,2026-06-11
+reddit_00019,reddit,https://example.com/reddit/19,Dubai,Palm Jumeirah,Palme Couture,apartment,0,464.9,1233000.0,2026-06-06
+bayut_00020,bayut,https://example.com/bayut/20,Dubai,Business Bay,Damac Maison,apartment,2,1161.1,2034000.0,2026-06-12
+property_finder_00021,property_finder,https://example.com/property_finder/21,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,2,1220.2,1640000.0,2026-06-10
+property_finder_00022,property_finder,https://example.com/property_finder/22,Dubai,Arabian Ranches,Alvorada,villa,5,4039.9,6197000.0,2026-06-08
+bayut_00023,bayut,https://example.com/bayut/23,Dubai,Downtown Dubai,Burj Vista,apartment,2,1221.1,2721000.0,2026-06-09
+dubizzle_00024,dubizzle,https://example.com/dubizzle/24,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1571.9,1943000.0,2026-06-11
+dubizzle_00025,dubizzle,https://example.com/dubizzle/25,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1578.6,3292000.0,2026-06-08
+reddit_00026,reddit,https://example.com/reddit/26,Abu Dhabi,Yas Island,Water's Edge,apartment,1,816.7,1257000.0,2026-06-09
+bayut_00027,bayut,https://example.com/bayut/27,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1045.6,2162000.0,2026-06-09
+dubizzle_00028,dubizzle,https://example.com/dubizzle/28,Dubai,Business Bay,Merano,apartment,2,1085.3,2049000.0,2026-06-11
+dubizzle_00029,dubizzle,https://example.com/dubizzle/29,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1731.5,2112000.0,2026-06-05
+reddit_00030,reddit,https://example.com/reddit/30,Abu Dhabi,Yas Island,Mayan,apartment,1,742.6,1085000.0,2026-06-05
+property_finder_00031,property_finder,https://example.com/property_finder/31,Dubai,Downtown Dubai,Boulevard Point,apartment,3,1745.7,3996000.0,2026-06-13
+bayut_00032,bayut,https://example.com/bayut/32,Dubai,Dubai Marina,Cayan Tower,apartment,0,444.2,684000.0,2026-06-12
+dubizzle_00033,dubizzle,https://example.com/dubizzle/33,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1081.6,1280000.0,2026-06-10
+reddit_00034,reddit,https://example.com/reddit/34,Abu Dhabi,Al Reem Island,Sun Tower,apartment,0,414.5,561000.0,2026-06-08
+dubizzle_00035,dubizzle,https://example.com/dubizzle/35,Abu Dhabi,Yas Island,Ansam,apartment,3,1621.9,2364000.0,2026-06-09
+dubizzle_00036,dubizzle,https://example.com/dubizzle/36,Dubai,Dubai Marina,Cayan Tower,apartment,1,786.2,1205000.0,2026-06-08
+bayut_00037,bayut,https://example.com/bayut/37,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1204.7,1480000.0,2026-06-11
+bayut_00038,bayut,https://example.com/bayut/38,Abu Dhabi,Yas Island,Water's Edge,apartment,1,738.7,1182000.0,2026-06-06
+reddit_00039,reddit,https://example.com/reddit/39,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1114.4,1675000.0,2026-06-10
+bayut_00040,bayut,https://example.com/bayut/40,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1821.4,4557000.0,2026-06-07
+reddit_00041,reddit,https://example.com/reddit/41,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2657.3,4614000.0,2026-06-06
+bayut_00042,bayut,https://example.com/bayut/42,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1541.3,3426000.0,2026-06-06
+reddit_00043,reddit,https://example.com/reddit/43,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,0,419.2,637000.0,2026-06-04
+reddit_00044,reddit,https://example.com/reddit/44,Abu Dhabi,Yas Island,Water's Edge,apartment,3,1705.3,2784000.0,2026-06-06
+bayut_00045,bayut,https://example.com/bayut/45,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1224.1,3247000.0,2026-06-05
+reddit_00046,reddit,https://example.com/reddit/46,Dubai,Dubai Marina,Cayan Tower,apartment,0,435.0,747000.0,2026-06-05
+bayut_00047,bayut,https://example.com/bayut/47,Dubai,Downtown Dubai,The Address,apartment,2,1202.3,2786000.0,2026-06-06
+dubizzle_00048,dubizzle,https://example.com/dubizzle/48,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,3,1587.7,1560000.0,2026-06-11
+reddit_00049,reddit,https://example.com/reddit/49,Dubai,Downtown Dubai,Burj Vista,apartment,0,475.7,989000.0,2026-06-09
+dubizzle_00050,dubizzle,https://example.com/dubizzle/50,Dubai,Palm Jumeirah,Palme Couture,apartment,0,431.1,1160000.0,2026-06-06
+dubizzle_00051,dubizzle,https://example.com/dubizzle/51,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2274.1,3695000.0,2026-06-07
+dubizzle_00052,dubizzle,https://example.com/dubizzle/52,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1727.3,4177000.0,2026-06-06
+property_finder_00053,property_finder,https://example.com/property_finder/53,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2294.8,3681000.0,2026-06-12
+dubizzle_00054,dubizzle,https://example.com/dubizzle/54,Abu Dhabi,Al Reem Island,Sky Tower,apartment,0,495.4,590000.0,2026-06-11
+reddit_00055,reddit,https://example.com/reddit/55,Dubai,Dubai Hills Estate,Maple,townhouse,4,2501.3,4020000.0,2026-06-04
+bayut_00056,bayut,https://example.com/bayut/56,Dubai,Arabian Ranches,Saheel,villa,5,4289.1,6433000.0,2026-06-13
+property_finder_00057,property_finder,https://example.com/property_finder/57,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,456.1,490000.0,2026-06-09
+dubizzle_00058,dubizzle,https://example.com/dubizzle/58,Abu Dhabi,Al Reem Island,Sun Tower,apartment,1,773.1,969000.0,2026-06-11
+bayut_00059,bayut,https://example.com/bayut/59,Dubai,Downtown Dubai,The Address,apartment,2,1211.5,2909000.0,2026-06-09
+reddit_00060,reddit,https://example.com/reddit/60,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1229.3,1954000.0,2026-06-08
+property_finder_00061,property_finder,https://example.com/property_finder/61,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1723.3,1950000.0,2026-06-10
+reddit_00062,reddit,https://example.com/reddit/62,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,1,745.6,1089000.0,2026-06-05
+property_finder_00063,property_finder,https://example.com/property_finder/63,Abu Dhabi,Yas Island,Water's Edge,apartment,1,759.1,1112000.0,2026-06-08
+reddit_00064,reddit,https://example.com/reddit/64,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1146.4,2708000.0,2026-06-04
+dubizzle_00065,dubizzle,https://example.com/dubizzle/65,Dubai,Arabian Ranches,Alvorada,villa,4,4204.7,5993000.0,2026-06-08
+reddit_00066,reddit,https://example.com/reddit/66,Dubai,Downtown Dubai,Boulevard Point,apartment,1,746.0,1876000.0,2026-06-13
+dubizzle_00067,dubizzle,https://example.com/dubizzle/67,Abu Dhabi,Yas Island,Mayan,apartment,1,815.5,1214000.0,2026-06-08
+property_finder_00068,property_finder,https://example.com/property_finder/68,Dubai,Dubai Marina,Princess Tower,apartment,2,1169.7,1860000.0,2026-06-06
+dubizzle_00069,dubizzle,https://example.com/dubizzle/69,Dubai,Business Bay,Merano,apartment,0,481.0,891000.0,2026-06-04
+dubizzle_00070,dubizzle,https://example.com/dubizzle/70,Abu Dhabi,Saadiyat Island,Mamsha,apartment,1,834.7,1783000.0,2026-06-05
+property_finder_00071,property_finder,https://example.com/property_finder/71,Dubai,Palm Jumeirah,Shoreline,apartment,2,1148.9,2756000.0,2026-06-05
+property_finder_00072,property_finder,https://example.com/property_finder/72,Abu Dhabi,Saadiyat Island,Mamsha,apartment,2,1257.2,2412000.0,2026-06-10
+dubizzle_00073,dubizzle,https://example.com/dubizzle/73,Dubai,Arabian Ranches,Alvorada,villa,3,2571.9,3826000.0,2026-06-12
+property_finder_00074,property_finder,https://example.com/property_finder/74,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,497.3,1115000.0,2026-06-04
+bayut_00075,bayut,https://example.com/bayut/75,Dubai,Palm Jumeirah,Azure Residences,apartment,0,509.2,1286000.0,2026-06-05
+reddit_00076,reddit,https://example.com/reddit/76,Dubai,Downtown Dubai,Burj Vista,apartment,2,1153.5,2812000.0,2026-06-09
+bayut_00077,bayut,https://example.com/bayut/77,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,414.2,546000.0,2026-06-05
+dubizzle_00078,dubizzle,https://example.com/dubizzle/78,Dubai,Palm Jumeirah,Palme Couture,apartment,1,765.1,1903000.0,2026-06-08
+reddit_00079,reddit,https://example.com/reddit/79,Dubai,Dubai Hills Estate,Maple,townhouse,4,2274.7,3491000.0,2026-06-13
+property_finder_00080,property_finder,https://example.com/property_finder/80,Abu Dhabi,Saadiyat Island,Park View,apartment,0,471.1,970000.0,2026-06-05
+property_finder_00081,property_finder,https://example.com/property_finder/81,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,491.7,588000.0,2026-06-09
+bayut_00082,bayut,https://example.com/bayut/82,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2952.8,4677000.0,2026-06-09
+dubizzle_00083,dubizzle,https://example.com/dubizzle/83,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,770.1,1532000.0,2026-06-09
+dubizzle_00084,dubizzle,https://example.com/dubizzle/84,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1196.4,1703000.0,2026-06-11
+dubizzle_00085,dubizzle,https://example.com/dubizzle/85,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,455.1,882000.0,2026-06-10
+bayut_00086,bayut,https://example.com/bayut/86,Dubai,Business Bay,Merano,apartment,2,1220.9,2204000.0,2026-06-04
+property_finder_00087,property_finder,https://example.com/property_finder/87,Dubai,Dubai Hills Estate,Maple,townhouse,4,2685.8,4403000.0,2026-06-07
+dubizzle_00088,dubizzle,https://example.com/dubizzle/88,Dubai,Dubai Marina,Cayan Tower,apartment,1,670.8,1145000.0,2026-06-09
+bayut_00089,bayut,https://example.com/bayut/89,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,807.7,844000.0,2026-06-10
+property_finder_00090,property_finder,https://example.com/property_finder/90,Abu Dhabi,Saadiyat Island,Park View,apartment,0,462.5,837000.0,2026-06-13
+dubizzle_00091,dubizzle,https://example.com/dubizzle/91,Abu Dhabi,Saadiyat Island,Park View,apartment,3,1740.3,3282000.0,2026-06-07
+bayut_00092,bayut,https://example.com/bayut/92,Abu Dhabi,Yas Island,Ansam,apartment,2,1296.3,1761000.0,2026-06-04
+bayut_00093,bayut,https://example.com/bayut/93,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,2,1202.3,1743000.0,2026-06-08
+dubizzle_00094,dubizzle,https://example.com/dubizzle/94,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1145.3,1163000.0,2026-06-13
+bayut_00095,bayut,https://example.com/bayut/95,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2518.0,4134000.0,2026-06-07
+property_finder_00096,property_finder,https://example.com/property_finder/96,Dubai,Arabian Ranches,Alvorada,villa,3,2815.0,4431000.0,2026-06-13
+bayut_00097,bayut,https://example.com/bayut/97,Dubai,Business Bay,Merano,apartment,3,1705.7,2929000.0,2026-06-04
+bayut_00098,bayut,https://example.com/bayut/98,Dubai,Palm Jumeirah,Shoreline,apartment,0,440.0,1064000.0,2026-06-11
+bayut_00099,bayut,https://example.com/bayut/99,Dubai,Palm Jumeirah,Palme Couture,apartment,0,477.3,1127000.0,2026-06-13
+property_finder_00100,property_finder,https://example.com/property_finder/100,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2596.9,4264000.0,2026-06-13
+bayut_00101,bayut,https://example.com/bayut/101,Dubai,Downtown Dubai,The Address,apartment,0,453.6,962000.0,2026-06-05
+dubizzle_00102,dubizzle,https://example.com/dubizzle/102,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,731.0,858000.0,2026-06-10
+bayut_00103,bayut,https://example.com/bayut/103,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,757.7,1420000.0,2026-06-13
+dubizzle_00104,dubizzle,https://example.com/dubizzle/104,Abu Dhabi,Yas Island,Water's Edge,apartment,0,451.3,655000.0,2026-06-11
+reddit_00105,reddit,https://example.com/reddit/105,Dubai,Jumeirah Village Circle,Belgravia,apartment,0,451.3,461000.0,2026-06-11
+dubizzle_00106,dubizzle,https://example.com/dubizzle/106,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,821.6,1072000.0,2026-06-06
+bayut_00107,bayut,https://example.com/bayut/107,Dubai,Business Bay,Damac Maison,apartment,3,1592.3,3024000.0,2026-06-06
+property_finder_00108,property_finder,https://example.com/property_finder/108,Dubai,Business Bay,Merano,apartment,3,1740.4,3206000.0,2026-06-09
+property_finder_00109,property_finder,https://example.com/property_finder/109,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,849.3,1734000.0,2026-06-11
+reddit_00110,reddit,https://example.com/reddit/110,Abu Dhabi,Yas Island,Mayan,apartment,0,465.5,730000.0,2026-06-05
+reddit_00111,reddit,https://example.com/reddit/111,Dubai,Palm Jumeirah,Shoreline,apartment,0,405.6,1051000.0,2026-06-07
+property_finder_00112,property_finder,https://example.com/property_finder/112,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1943.2,2416000.0,2026-06-11
+dubizzle_00113,dubizzle,https://example.com/dubizzle/113,Dubai,Business Bay,Damac Maison,apartment,1,686.3,1194000.0,2026-06-12
+dubizzle_00114,dubizzle,https://example.com/dubizzle/114,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,2,1121.3,1317000.0,2026-06-05
+reddit_00115,reddit,https://example.com/reddit/115,Dubai,Downtown Dubai,Boulevard Point,apartment,1,768.8,1716000.0,2026-06-09
+bayut_00116,bayut,https://example.com/bayut/116,Abu Dhabi,Yas Island,Ansam,apartment,2,1136.2,1611000.0,2026-06-12
+dubizzle_00117,dubizzle,https://example.com/dubizzle/117,Abu Dhabi,Yas Island,Ansam,apartment,2,1300.4,1885000.0,2026-06-05
+reddit_00118,reddit,https://example.com/reddit/118,Abu Dhabi,Yas Island,Ansam,apartment,1,768.1,1208000.0,2026-06-12
+dubizzle_00119,dubizzle,https://example.com/dubizzle/119,Dubai,Dubai Marina,Marina Gate,apartment,3,1663.5,2629000.0,2026-06-13
+dubizzle_01000,dubizzle,https://example.com/dubizzle/1000,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,727.4,837000.0,2026-06-06
+property_finder_01001,property_finder,https://example.com/property_finder/1001,Dubai,Downtown Dubai,The Address,apartment,1,731.6,1360000.0,2026-06-13
+property_finder_01002,property_finder,https://example.com/property_finder/1002,Dubai,Jumeirah Village Circle,Belgravia,apartment,0,441.3,403000.0,2026-06-06
+bayut_01003,bayut,https://example.com/bayut/1003,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,791.8,1309000.0,2026-06-11
+dubizzle_01004,dubizzle,https://example.com/dubizzle/1004,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1281.2,1062000.0,2026-06-11
+property_finder_01005,property_finder,https://example.com/property_finder/1005,Abu Dhabi,Al Reem Island,Sun Tower,apartment,1,834.6,790000.0,2026-06-07
+dubizzle_01006,dubizzle,https://example.com/dubizzle/1006,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,2,1302.0,1386000.0,2026-06-08
+reddit_01007,reddit,https://example.com/reddit/1007,Dubai,Downtown Dubai,Boulevard Point,apartment,2,1157.3,2161000.0,2026-06-10
+reddit_01008,reddit,https://example.com/reddit/1008,Dubai,Downtown Dubai,The Address,apartment,1,716.5,1279000.0,2026-06-10
+reddit_01009,reddit,https://example.com/reddit/1009,Dubai,Dubai Hills Estate,Maple,townhouse,4,2802.8,3438000.0,2026-06-09
+reddit_01010,reddit,https://example.com/reddit/1010,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1652.9,3422000.0,2026-06-09
+reddit_01011,reddit,https://example.com/reddit/1011,Abu Dhabi,Yas Island,Mayan,apartment,2,1335.7,1583000.0,2026-06-13
+bayut_01012,bayut,https://example.com/bayut/1012,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,2,1186.5,1094000.0,2026-06-08
+property_finder_01013,property_finder,https://example.com/property_finder/1013,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1684.8,2763000.0,2026-06-13

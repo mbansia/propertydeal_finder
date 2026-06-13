@@ -1,0 +1,493 @@
+txn_id,source,city,area,building,property_type,bedrooms,size_sqft,annual_rent,txn_date
+rent_00000,dld,Dubai,Dubai Marina,Cayan Tower,apartment,0,438.8,45100.0,2026-05-08
+rent_00001,dld,Dubai,Dubai Marina,Marina Gate,apartment,0,470.8,53200.0,2026-06-05
+rent_00002,dld,Dubai,Dubai Marina,Cayan Tower,apartment,0,486.6,53300.0,2026-03-02
+rent_00003,dld,Dubai,Dubai Marina,Marina Gate,apartment,0,468.4,50700.0,2025-07-09
+rent_00004,dld,Dubai,Dubai Marina,Princess Tower,apartment,0,521.1,55000.0,2026-01-02
+rent_00005,dld,Dubai,Dubai Marina,Cayan Tower,apartment,0,472.0,52300.0,2026-02-11
+rent_00006,dld,Dubai,Dubai Marina,Marina Gate,apartment,0,491.0,53100.0,2025-12-30
+rent_00007,dld,Dubai,Dubai Marina,Marina Gate,apartment,0,492.8,56000.0,2025-12-20
+rent_00008,dld,Dubai,Dubai Marina,Marina Gate,apartment,0,509.1,58000.0,2026-04-27
+rent_00009,dld,Dubai,Dubai Marina,Marina Gate,apartment,0,464.4,50500.0,2026-05-11
+rent_00010,dld,Dubai,Dubai Marina,Cayan Tower,apartment,0,476.1,53600.0,2025-12-12
+rent_00011,dld,Dubai,Dubai Marina,Cayan Tower,apartment,0,438.2,48200.0,2025-12-11
+rent_00012,dld,Dubai,Dubai Marina,Marina Gate,apartment,1,717.6,70100.0,2026-03-03
+rent_00013,dld,Dubai,Dubai Marina,Marina Gate,apartment,1,658.2,72700.0,2025-12-02
+rent_00014,dld,Dubai,Dubai Marina,Cayan Tower,apartment,1,841.2,88400.0,2026-02-23
+rent_00015,dld,Dubai,Dubai Marina,Princess Tower,apartment,1,761.4,83600.0,2026-04-01
+rent_00016,dld,Dubai,Dubai Marina,Princess Tower,apartment,1,758.4,88400.0,2025-10-10
+rent_00017,dld,Dubai,Dubai Marina,Princess Tower,apartment,1,793.8,92000.0,2026-02-06
+rent_00018,dld,Dubai,Dubai Marina,Princess Tower,apartment,1,869.7,89600.0,2026-02-02
+rent_00019,dld,Dubai,Dubai Marina,Marina Gate,apartment,1,733.5,83600.0,2026-03-27
+rent_00020,dld,Dubai,Dubai Marina,Cayan Tower,apartment,1,784.8,78700.0,2026-05-30
+rent_00021,dld,Dubai,Dubai Marina,Cayan Tower,apartment,1,722.7,85100.0,2026-03-18
+rent_00022,dld,Dubai,Dubai Marina,Cayan Tower,apartment,1,797.1,90300.0,2025-07-07
+rent_00023,dld,Dubai,Dubai Marina,Princess Tower,apartment,1,695.3,72500.0,2025-09-26
+rent_00024,dld,Dubai,Dubai Marina,Princess Tower,apartment,2,1077.6,131500.0,2026-04-15
+rent_00025,dld,Dubai,Dubai Marina,Cayan Tower,apartment,2,1206.9,128600.0,2026-04-10
+rent_00026,dld,Dubai,Dubai Marina,Marina Gate,apartment,2,1248.3,135600.0,2025-07-10
+rent_00027,dld,Dubai,Dubai Marina,Cayan Tower,apartment,2,1166.1,123900.0,2026-05-05
+rent_00028,dld,Dubai,Dubai Marina,Cayan Tower,apartment,2,1040.0,111200.0,2026-06-02
+rent_00029,dld,Dubai,Dubai Marina,Cayan Tower,apartment,2,1139.4,112900.0,2026-01-26
+rent_00030,dld,Dubai,Dubai Marina,Princess Tower,apartment,2,1183.8,109500.0,2026-02-14
+rent_00031,dld,Dubai,Dubai Marina,Marina Gate,apartment,2,1208.8,135200.0,2026-04-01
+rent_00032,dld,Dubai,Dubai Marina,Princess Tower,apartment,2,1191.2,139000.0,2025-07-10
+rent_00033,dld,Dubai,Dubai Marina,Cayan Tower,apartment,2,1173.3,123600.0,2026-02-19
+rent_00034,dld,Dubai,Dubai Marina,Cayan Tower,apartment,2,1213.1,133900.0,2025-08-09
+rent_00035,dld,Dubai,Dubai Marina,Marina Gate,apartment,2,1189.3,136900.0,2025-09-07
+rent_00036,dld,Dubai,Dubai Marina,Marina Gate,apartment,3,1780.0,205700.0,2025-07-09
+rent_00037,dld,Dubai,Dubai Marina,Princess Tower,apartment,3,1515.6,182900.0,2025-09-05
+rent_00038,dld,Dubai,Dubai Marina,Marina Gate,apartment,3,1525.1,157800.0,2026-06-01
+rent_00039,dld,Dubai,Dubai Marina,Cayan Tower,apartment,3,1671.5,175500.0,2025-11-06
+rent_00040,dld,Dubai,Dubai Marina,Cayan Tower,apartment,3,1593.2,163800.0,2026-03-05
+rent_00041,dld,Dubai,Dubai Marina,Princess Tower,apartment,3,1739.8,196000.0,2026-01-01
+rent_00042,dld,Dubai,Dubai Marina,Cayan Tower,apartment,3,1720.3,193800.0,2026-01-09
+rent_00043,dld,Dubai,Dubai Marina,Cayan Tower,apartment,3,1706.4,187200.0,2025-07-22
+rent_00044,dld,Dubai,Dubai Marina,Cayan Tower,apartment,3,1778.8,201200.0,2025-12-12
+rent_00045,dld,Dubai,Dubai Marina,Princess Tower,apartment,3,1617.5,177000.0,2025-12-12
+rent_00046,dld,Dubai,Dubai Marina,Princess Tower,apartment,3,1719.7,216200.0,2025-11-19
+rent_00047,dld,Dubai,Dubai Marina,Cayan Tower,apartment,3,1743.1,204000.0,2026-03-12
+rent_00048,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,0,524.5,44000.0,2025-06-25
+rent_00049,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,438.0,36800.0,2025-12-03
+rent_00050,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,0,483.4,42600.0,2025-11-12
+rent_00051,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,457.4,38500.0,2026-05-02
+rent_00052,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,0,470.9,38500.0,2026-05-23
+rent_00053,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,0,434.0,39800.0,2026-05-20
+rent_00054,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,0,463.5,39700.0,2025-10-15
+rent_00055,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,0,436.6,34800.0,2025-07-22
+rent_00056,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,0,476.6,42000.0,2025-11-11
+rent_00057,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,0,478.7,39100.0,2026-04-17
+rent_00058,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,0,433.9,40800.0,2025-12-19
+rent_00059,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,0,476.7,44600.0,2026-05-03
+rent_00060,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,700.0,57200.0,2026-02-19
+rent_00061,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,1,740.2,58900.0,2026-01-13
+rent_00062,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,1,723.1,63700.0,2026-03-13
+rent_00063,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,802.5,71600.0,2026-05-30
+rent_00064,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,762.5,75400.0,2025-10-17
+rent_00065,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,1,692.8,55500.0,2025-09-13
+rent_00066,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,1,780.8,66700.0,2026-02-17
+rent_00067,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,874.1,78200.0,2026-02-25
+rent_00068,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,1,736.4,59000.0,2026-03-13
+rent_00069,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,1,788.1,59000.0,2026-03-10
+rent_00070,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,780.7,66200.0,2026-02-07
+rent_00071,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,1,754.7,64200.0,2026-01-26
+rent_00072,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,2,1222.8,113200.0,2025-12-05
+rent_00073,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1147.7,101800.0,2026-05-23
+rent_00074,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1149.3,104400.0,2025-06-18
+rent_00075,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1271.5,123100.0,2025-11-20
+rent_00076,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,2,1181.0,101800.0,2025-12-10
+rent_00077,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1134.0,87500.0,2025-10-27
+rent_00078,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,2,1125.6,97500.0,2025-08-10
+rent_00079,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,2,1102.1,96400.0,2025-11-22
+rent_00080,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,2,1221.0,121200.0,2025-10-20
+rent_00081,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,2,1214.3,96700.0,2026-02-10
+rent_00082,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,2,1292.1,104100.0,2026-05-10
+rent_00083,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,2,1177.2,100700.0,2026-04-02
+rent_00084,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,3,1668.9,156100.0,2025-09-28
+rent_00085,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1557.8,143000.0,2026-02-24
+rent_00086,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1636.7,125300.0,2026-05-29
+rent_00087,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,3,1694.4,157800.0,2025-07-02
+rent_00088,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,3,1691.4,152500.0,2025-12-18
+rent_00089,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,3,1805.4,142600.0,2025-12-05
+rent_00090,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1725.2,159800.0,2025-07-21
+rent_00091,dld,Dubai,Jumeirah Village Circle,Belgravia,apartment,3,1457.5,118600.0,2026-01-24
+rent_00092,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,3,1680.1,149500.0,2026-03-01
+rent_00093,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,3,1762.1,149400.0,2025-12-14
+rent_00094,dld,Dubai,Jumeirah Village Circle,Pantheon,apartment,3,1653.5,146500.0,2026-05-20
+rent_00095,dld,Dubai,Jumeirah Village Circle,Bloom Towers,apartment,3,1764.4,161600.0,2026-03-10
+rent_00096,dld,Dubai,Business Bay,Executive Towers,apartment,0,375.4,40700.0,2026-04-02
+rent_00097,dld,Dubai,Business Bay,Damac Maison,apartment,0,444.9,45600.0,2025-11-14
+rent_00098,dld,Dubai,Business Bay,Executive Towers,apartment,0,460.4,59000.0,2026-04-24
+rent_00099,dld,Dubai,Business Bay,Executive Towers,apartment,0,472.7,57700.0,2025-08-01
+rent_00100,dld,Dubai,Business Bay,Merano,apartment,0,522.9,66500.0,2026-05-19
+rent_00101,dld,Dubai,Business Bay,Merano,apartment,0,472.3,60700.0,2025-09-21
+rent_00102,dld,Dubai,Business Bay,Executive Towers,apartment,0,448.2,57700.0,2026-05-20
+rent_00103,dld,Dubai,Business Bay,Executive Towers,apartment,0,531.0,59900.0,2026-05-12
+rent_00104,dld,Dubai,Business Bay,Merano,apartment,0,451.6,51900.0,2025-08-06
+rent_00105,dld,Dubai,Business Bay,Damac Maison,apartment,0,383.8,44300.0,2026-01-09
+rent_00106,dld,Dubai,Business Bay,Executive Towers,apartment,0,446.4,60300.0,2025-12-13
+rent_00107,dld,Dubai,Business Bay,Merano,apartment,0,495.6,60100.0,2025-08-14
+rent_00108,dld,Dubai,Business Bay,Executive Towers,apartment,1,793.1,103400.0,2025-07-25
+rent_00109,dld,Dubai,Business Bay,Damac Maison,apartment,1,803.2,98000.0,2026-03-09
+rent_00110,dld,Dubai,Business Bay,Merano,apartment,1,799.0,110000.0,2025-12-05
+rent_00111,dld,Dubai,Business Bay,Damac Maison,apartment,1,799.6,103500.0,2026-02-22
+rent_00112,dld,Dubai,Business Bay,Executive Towers,apartment,1,780.5,77400.0,2026-04-20
+rent_00113,dld,Dubai,Business Bay,Merano,apartment,1,676.1,88700.0,2026-04-26
+rent_00114,dld,Dubai,Business Bay,Executive Towers,apartment,1,826.8,92200.0,2026-03-19
+rent_00115,dld,Dubai,Business Bay,Executive Towers,apartment,1,792.2,94100.0,2026-05-27
+rent_00116,dld,Dubai,Business Bay,Executive Towers,apartment,1,784.0,111400.0,2026-05-28
+rent_00117,dld,Dubai,Business Bay,Damac Maison,apartment,1,829.1,104500.0,2025-11-09
+rent_00118,dld,Dubai,Business Bay,Merano,apartment,1,771.1,78600.0,2026-06-10
+rent_00119,dld,Dubai,Business Bay,Damac Maison,apartment,1,818.0,90700.0,2026-03-11
+rent_00120,dld,Dubai,Business Bay,Merano,apartment,2,1131.0,148700.0,2025-11-23
+rent_00121,dld,Dubai,Business Bay,Damac Maison,apartment,2,1226.1,152300.0,2025-09-12
+rent_00122,dld,Dubai,Business Bay,Executive Towers,apartment,2,1194.0,130300.0,2026-03-15
+rent_00123,dld,Dubai,Business Bay,Damac Maison,apartment,2,1190.6,144900.0,2026-02-13
+rent_00124,dld,Dubai,Business Bay,Damac Maison,apartment,2,1291.3,170600.0,2025-06-23
+rent_00125,dld,Dubai,Business Bay,Damac Maison,apartment,2,1155.1,142100.0,2025-12-18
+rent_00126,dld,Dubai,Business Bay,Damac Maison,apartment,2,1284.8,164900.0,2025-12-03
+rent_00127,dld,Dubai,Business Bay,Damac Maison,apartment,2,1117.5,140300.0,2026-04-29
+rent_00128,dld,Dubai,Business Bay,Damac Maison,apartment,2,1163.1,137300.0,2026-05-09
+rent_00129,dld,Dubai,Business Bay,Executive Towers,apartment,2,1154.9,114000.0,2026-05-19
+rent_00130,dld,Dubai,Business Bay,Executive Towers,apartment,2,1130.5,134900.0,2025-09-10
+rent_00131,dld,Dubai,Business Bay,Damac Maison,apartment,2,1160.6,145800.0,2025-11-12
+rent_00132,dld,Dubai,Business Bay,Executive Towers,apartment,3,1647.3,205400.0,2025-06-29
+rent_00133,dld,Dubai,Business Bay,Merano,apartment,3,1535.9,191300.0,2026-01-05
+rent_00134,dld,Dubai,Business Bay,Merano,apartment,3,1695.4,174100.0,2026-04-16
+rent_00135,dld,Dubai,Business Bay,Merano,apartment,3,1530.7,186100.0,2025-12-20
+rent_00136,dld,Dubai,Business Bay,Merano,apartment,3,1581.7,182400.0,2026-01-17
+rent_00137,dld,Dubai,Business Bay,Merano,apartment,3,1634.3,202500.0,2025-10-17
+rent_00138,dld,Dubai,Business Bay,Executive Towers,apartment,3,1800.0,218400.0,2025-08-29
+rent_00139,dld,Dubai,Business Bay,Executive Towers,apartment,3,1611.7,169700.0,2026-03-06
+rent_00140,dld,Dubai,Business Bay,Merano,apartment,3,1663.8,165100.0,2025-10-09
+rent_00141,dld,Dubai,Business Bay,Executive Towers,apartment,3,1608.1,212500.0,2026-03-25
+rent_00142,dld,Dubai,Business Bay,Merano,apartment,3,1553.0,199200.0,2025-11-09
+rent_00143,dld,Dubai,Business Bay,Damac Maison,apartment,3,1624.0,184700.0,2026-01-02
+rent_00144,dld,Dubai,Downtown Dubai,The Address,apartment,0,395.8,42600.0,2025-12-06
+rent_00145,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,0,502.8,60300.0,2026-04-22
+rent_00146,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,0,491.3,69800.0,2025-07-04
+rent_00147,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,0,459.5,64100.0,2026-05-06
+rent_00148,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,0,488.4,56100.0,2026-01-25
+rent_00149,dld,Dubai,Downtown Dubai,The Address,apartment,0,453.3,52300.0,2026-05-04
+rent_00150,dld,Dubai,Downtown Dubai,Burj Vista,apartment,0,413.7,47700.0,2026-01-18
+rent_00151,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,0,487.5,59800.0,2025-07-26
+rent_00152,dld,Dubai,Downtown Dubai,The Address,apartment,0,475.8,54900.0,2026-03-28
+rent_00153,dld,Dubai,Downtown Dubai,Burj Vista,apartment,0,482.6,70600.0,2026-06-01
+rent_00154,dld,Dubai,Downtown Dubai,The Address,apartment,0,447.4,58300.0,2025-08-15
+rent_00155,dld,Dubai,Downtown Dubai,The Address,apartment,0,445.2,53500.0,2025-07-05
+rent_00156,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,1,741.3,89100.0,2025-10-22
+rent_00157,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,1,826.6,98000.0,2026-05-01
+rent_00158,dld,Dubai,Downtown Dubai,Burj Vista,apartment,1,690.3,77900.0,2025-08-12
+rent_00159,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,1,772.8,87700.0,2025-11-25
+rent_00160,dld,Dubai,Downtown Dubai,The Address,apartment,1,743.8,89200.0,2025-11-20
+rent_00161,dld,Dubai,Downtown Dubai,Burj Vista,apartment,1,811.0,100500.0,2025-07-16
+rent_00162,dld,Dubai,Downtown Dubai,Burj Vista,apartment,1,759.7,96200.0,2025-07-19
+rent_00163,dld,Dubai,Downtown Dubai,The Address,apartment,1,737.5,91500.0,2025-10-30
+rent_00164,dld,Dubai,Downtown Dubai,The Address,apartment,1,789.9,103000.0,2026-06-07
+rent_00165,dld,Dubai,Downtown Dubai,Burj Vista,apartment,1,865.0,100400.0,2025-09-01
+rent_00166,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,1,778.3,95600.0,2025-12-09
+rent_00167,dld,Dubai,Downtown Dubai,The Address,apartment,1,785.0,102900.0,2026-02-10
+rent_00168,dld,Dubai,Downtown Dubai,The Address,apartment,2,1179.8,154300.0,2026-04-11
+rent_00169,dld,Dubai,Downtown Dubai,The Address,apartment,2,1234.2,144600.0,2025-11-27
+rent_00170,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,2,1336.5,164000.0,2025-07-02
+rent_00171,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,2,1141.2,153400.0,2026-06-04
+rent_00172,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,2,1197.6,158700.0,2026-06-02
+rent_00173,dld,Dubai,Downtown Dubai,Burj Vista,apartment,2,1266.2,166800.0,2025-09-14
+rent_00174,dld,Dubai,Downtown Dubai,Burj Vista,apartment,2,1205.4,158600.0,2026-01-20
+rent_00175,dld,Dubai,Downtown Dubai,The Address,apartment,2,1137.4,157600.0,2025-10-17
+rent_00176,dld,Dubai,Downtown Dubai,The Address,apartment,2,1237.0,154400.0,2025-11-22
+rent_00177,dld,Dubai,Downtown Dubai,The Address,apartment,2,1180.8,160800.0,2025-11-27
+rent_00178,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,2,1058.8,129100.0,2025-08-04
+rent_00179,dld,Dubai,Downtown Dubai,The Address,apartment,2,1164.9,126000.0,2026-05-16
+rent_00180,dld,Dubai,Downtown Dubai,The Address,apartment,3,1769.6,217900.0,2026-01-02
+rent_00181,dld,Dubai,Downtown Dubai,Burj Vista,apartment,3,1810.4,215500.0,2025-12-31
+rent_00182,dld,Dubai,Downtown Dubai,The Address,apartment,3,1755.3,220900.0,2025-07-23
+rent_00183,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,3,1682.2,223400.0,2025-07-15
+rent_00184,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,3,1534.6,198100.0,2025-07-04
+rent_00185,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,3,1749.0,222600.0,2025-10-13
+rent_00186,dld,Dubai,Downtown Dubai,The Address,apartment,3,1780.3,219600.0,2026-06-02
+rent_00187,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,3,1668.2,235600.0,2026-03-21
+rent_00188,dld,Dubai,Downtown Dubai,Burj Vista,apartment,3,1751.0,191200.0,2025-07-25
+rent_00189,dld,Dubai,Downtown Dubai,Burj Vista,apartment,3,1655.8,175000.0,2025-09-04
+rent_00190,dld,Dubai,Downtown Dubai,Burj Vista,apartment,3,1661.2,175400.0,2026-04-02
+rent_00191,dld,Dubai,Downtown Dubai,Boulevard Point,apartment,3,1846.4,252300.0,2025-07-19
+rent_00192,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,0,461.3,73100.0,2026-03-22
+rent_00193,dld,Dubai,Palm Jumeirah,Shoreline,apartment,0,491.3,66500.0,2026-01-10
+rent_00194,dld,Dubai,Palm Jumeirah,Shoreline,apartment,0,472.1,59800.0,2026-02-28
+rent_00195,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,0,522.7,79200.0,2025-12-14
+rent_00196,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,0,465.0,67100.0,2025-12-05
+rent_00197,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,0,437.5,59200.0,2026-03-29
+rent_00198,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,0,497.9,67200.0,2025-09-25
+rent_00199,dld,Dubai,Palm Jumeirah,Shoreline,apartment,0,457.6,67900.0,2025-08-03
+rent_00200,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,0,487.4,71100.0,2025-09-20
+rent_00201,dld,Dubai,Palm Jumeirah,Shoreline,apartment,0,468.5,70900.0,2025-08-09
+rent_00202,dld,Dubai,Palm Jumeirah,Shoreline,apartment,0,519.6,77800.0,2025-08-20
+rent_00203,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,0,415.6,56800.0,2025-07-10
+rent_00204,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,1,793.4,99600.0,2026-05-06
+rent_00205,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,1,754.6,120200.0,2026-01-20
+rent_00206,dld,Dubai,Palm Jumeirah,Shoreline,apartment,1,789.6,123900.0,2025-12-16
+rent_00207,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,1,733.5,104900.0,2026-05-19
+rent_00208,dld,Dubai,Palm Jumeirah,Shoreline,apartment,1,717.7,91900.0,2025-11-01
+rent_00209,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,1,751.8,106000.0,2025-12-23
+rent_00210,dld,Dubai,Palm Jumeirah,Shoreline,apartment,1,748.2,108400.0,2025-12-23
+rent_00211,dld,Dubai,Palm Jumeirah,Shoreline,apartment,1,743.9,120400.0,2026-02-09
+rent_00212,dld,Dubai,Palm Jumeirah,Shoreline,apartment,1,748.0,120100.0,2026-04-18
+rent_00213,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,1,754.2,108200.0,2025-09-17
+rent_00214,dld,Dubai,Palm Jumeirah,Shoreline,apartment,1,848.6,116000.0,2026-03-12
+rent_00215,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,1,784.2,105900.0,2026-01-25
+rent_00216,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1180.4,184800.0,2025-07-29
+rent_00217,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1228.7,193200.0,2026-06-02
+rent_00218,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,2,1164.9,176800.0,2025-10-05
+rent_00219,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,2,1221.7,176100.0,2025-08-21
+rent_00220,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1112.3,177600.0,2025-07-23
+rent_00221,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1296.1,181200.0,2025-10-22
+rent_00222,dld,Dubai,Palm Jumeirah,Shoreline,apartment,2,1349.4,181200.0,2026-03-14
+rent_00223,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,2,1191.5,188300.0,2026-03-23
+rent_00224,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1178.5,163900.0,2026-06-09
+rent_00225,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,2,1112.7,159300.0,2025-08-23
+rent_00226,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,2,1108.6,152900.0,2026-04-13
+rent_00227,dld,Dubai,Palm Jumeirah,Shoreline,apartment,2,1078.8,151800.0,2026-04-25
+rent_00228,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,3,1659.2,236000.0,2026-06-13
+rent_00229,dld,Dubai,Palm Jumeirah,Shoreline,apartment,3,1633.1,248300.0,2026-02-12
+rent_00230,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,3,1652.6,247800.0,2026-04-08
+rent_00231,dld,Dubai,Palm Jumeirah,Shoreline,apartment,3,1737.3,279500.0,2025-11-16
+rent_00232,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1519.1,227300.0,2026-04-11
+rent_00233,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1677.4,260200.0,2025-09-01
+rent_00234,dld,Dubai,Palm Jumeirah,Palme Couture,apartment,3,1548.5,226800.0,2025-12-14
+rent_00235,dld,Dubai,Palm Jumeirah,Shoreline,apartment,3,1675.5,264800.0,2025-09-22
+rent_00236,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1569.5,211100.0,2025-07-27
+rent_00237,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1662.7,264700.0,2025-10-02
+rent_00238,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1750.5,256400.0,2025-10-18
+rent_00239,dld,Dubai,Palm Jumeirah,Azure Residences,apartment,3,1612.1,247800.0,2026-02-18
+rent_00240,dld,Dubai,Dubai Hills Estate,Maple,townhouse,3,2310.3,240500.0,2026-01-02
+rent_00241,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2176.7,215000.0,2025-06-17
+rent_00242,dld,Dubai,Dubai Hills Estate,Sidra,townhouse,3,2239.9,213500.0,2025-07-25
+rent_00243,dld,Dubai,Dubai Hills Estate,Maple,townhouse,3,2293.3,219200.0,2026-02-04
+rent_00244,dld,Dubai,Dubai Hills Estate,Sidra,townhouse,3,2181.3,210600.0,2026-03-11
+rent_00245,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2221.4,229000.0,2026-05-07
+rent_00246,dld,Dubai,Dubai Hills Estate,Sidra,townhouse,3,2223.2,232900.0,2026-03-26
+rent_00247,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2223.7,204900.0,2025-11-29
+rent_00248,dld,Dubai,Dubai Hills Estate,Maple,townhouse,3,2080.6,197600.0,2025-08-12
+rent_00249,dld,Dubai,Dubai Hills Estate,Sidra,townhouse,3,2033.1,179400.0,2025-06-18
+rent_00250,dld,Dubai,Dubai Hills Estate,Maple,townhouse,3,2428.0,225800.0,2025-10-28
+rent_00251,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,3,2146.8,192700.0,2025-09-05
+rent_00252,dld,Dubai,Dubai Hills Estate,Maple,townhouse,4,3098.2,326700.0,2026-05-22
+rent_00253,dld,Dubai,Dubai Hills Estate,Sidra,townhouse,4,2804.9,253900.0,2026-03-16
+rent_00254,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2865.2,297700.0,2026-04-07
+rent_00255,dld,Dubai,Dubai Hills Estate,Sidra,townhouse,4,2623.9,249200.0,2025-07-30
+rent_00256,dld,Dubai,Dubai Hills Estate,Maple,townhouse,4,2529.6,249800.0,2026-06-03
+rent_00257,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2437.7,236100.0,2025-11-08
+rent_00258,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2506.0,251600.0,2026-02-28
+rent_00259,dld,Dubai,Dubai Hills Estate,Club Villas,townhouse,4,2821.5,287700.0,2025-06-30
+rent_00260,dld,Dubai,Dubai Hills Estate,Sidra,townhouse,4,2438.1,225600.0,2025-12-26
+rent_00261,dld,Dubai,Dubai Hills Estate,Maple,townhouse,4,2612.2,238800.0,2025-09-18
+rent_00262,dld,Dubai,Dubai Hills Estate,Maple,townhouse,4,2983.9,303300.0,2025-12-27
+rent_00263,dld,Dubai,Dubai Hills Estate,Maple,townhouse,4,2856.8,285600.0,2025-10-22
+rent_00264,dld,Dubai,Arabian Ranches,Alvorada,villa,3,2871.5,234000.0,2026-01-29
+rent_00265,dld,Dubai,Arabian Ranches,Alvorada,villa,3,2996.7,243600.0,2026-01-06
+rent_00266,dld,Dubai,Arabian Ranches,Saheel,villa,3,2724.1,252900.0,2026-03-29
+rent_00267,dld,Dubai,Arabian Ranches,Alvorada,villa,3,2987.2,269600.0,2026-05-21
+rent_00268,dld,Dubai,Arabian Ranches,Alvorada,villa,3,2916.4,245200.0,2026-01-26
+rent_00269,dld,Dubai,Arabian Ranches,Alvorada,villa,3,2799.7,227800.0,2026-02-16
+rent_00270,dld,Dubai,Arabian Ranches,Alvorada,villa,3,2881.1,228700.0,2025-10-15
+rent_00271,dld,Dubai,Arabian Ranches,Saheel,villa,3,3091.5,272000.0,2026-01-13
+rent_00272,dld,Dubai,Arabian Ranches,Alvorada,villa,3,2855.2,249500.0,2026-05-06
+rent_00273,dld,Dubai,Arabian Ranches,Saheel,villa,3,2854.8,256100.0,2026-01-15
+rent_00274,dld,Dubai,Arabian Ranches,Palmera,villa,3,2729.1,215500.0,2026-05-31
+rent_00275,dld,Dubai,Arabian Ranches,Palmera,villa,3,3200.3,232800.0,2026-06-06
+rent_00276,dld,Dubai,Arabian Ranches,Palmera,villa,4,3302.8,265100.0,2026-03-05
+rent_00277,dld,Dubai,Arabian Ranches,Alvorada,villa,4,3509.2,283800.0,2026-06-13
+rent_00278,dld,Dubai,Arabian Ranches,Palmera,villa,4,3484.4,262700.0,2025-11-25
+rent_00279,dld,Dubai,Arabian Ranches,Palmera,villa,4,3762.6,334700.0,2026-03-25
+rent_00280,dld,Dubai,Arabian Ranches,Alvorada,villa,4,3664.6,322400.0,2026-05-05
+rent_00281,dld,Dubai,Arabian Ranches,Saheel,villa,4,3602.0,300100.0,2025-06-20
+rent_00282,dld,Dubai,Arabian Ranches,Alvorada,villa,4,4015.7,298000.0,2025-06-18
+rent_00283,dld,Dubai,Arabian Ranches,Alvorada,villa,4,3402.3,305400.0,2026-03-31
+rent_00284,dld,Dubai,Arabian Ranches,Palmera,villa,4,3384.9,294100.0,2026-01-24
+rent_00285,dld,Dubai,Arabian Ranches,Alvorada,villa,4,3719.7,317500.0,2025-06-15
+rent_00286,dld,Dubai,Arabian Ranches,Palmera,villa,4,3616.3,300200.0,2025-06-25
+rent_00287,dld,Dubai,Arabian Ranches,Alvorada,villa,4,3725.4,329000.0,2025-11-18
+rent_00288,dld,Dubai,Arabian Ranches,Alvorada,villa,5,4217.8,340200.0,2025-12-01
+rent_00289,dld,Dubai,Arabian Ranches,Palmera,villa,5,4712.3,422900.0,2026-04-18
+rent_00290,dld,Dubai,Arabian Ranches,Saheel,villa,5,4886.3,449800.0,2026-06-01
+rent_00291,dld,Dubai,Arabian Ranches,Alvorada,villa,5,4278.1,399000.0,2026-06-11
+rent_00292,dld,Dubai,Arabian Ranches,Alvorada,villa,5,4534.1,371800.0,2026-05-23
+rent_00293,dld,Dubai,Arabian Ranches,Alvorada,villa,5,4103.5,360000.0,2025-11-11
+rent_00294,dld,Dubai,Arabian Ranches,Alvorada,villa,5,5326.1,413400.0,2025-11-09
+rent_00295,dld,Dubai,Arabian Ranches,Saheel,villa,5,4637.7,431300.0,2025-07-27
+rent_00296,dld,Dubai,Arabian Ranches,Saheel,villa,5,4654.5,340500.0,2026-02-16
+rent_00297,dld,Dubai,Arabian Ranches,Alvorada,villa,5,4210.1,306700.0,2026-06-09
+rent_00298,dld,Dubai,Arabian Ranches,Palmera,villa,5,3894.4,296900.0,2025-08-20
+rent_00299,dld,Dubai,Arabian Ranches,Saheel,villa,5,4275.6,369100.0,2026-01-12
+rent_00300,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,0,484.7,45900.0,2025-06-29
+rent_00301,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,0,459.9,42300.0,2025-09-03
+rent_00302,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,463.9,40600.0,2025-12-06
+rent_00303,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,0,437.4,40500.0,2026-06-09
+rent_00304,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,441.7,37900.0,2026-05-08
+rent_00305,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,487.0,44100.0,2025-11-27
+rent_00306,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,0,482.3,41700.0,2025-11-16
+rent_00307,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,0,488.2,42300.0,2025-10-19
+rent_00308,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,461.1,44800.0,2025-12-11
+rent_00309,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,426.9,39900.0,2025-09-27
+rent_00310,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,0,512.1,46100.0,2025-11-02
+rent_00311,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,0,469.9,48000.0,2025-11-04
+rent_00312,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,1,865.7,72400.0,2026-05-22
+rent_00313,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,1,746.2,68200.0,2025-11-03
+rent_00314,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,1,749.8,64300.0,2026-02-21
+rent_00315,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,1,817.5,75000.0,2025-12-23
+rent_00316,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,765.4,65300.0,2025-06-21
+rent_00317,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,1,835.1,80700.0,2025-11-09
+rent_00318,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,1,651.8,51400.0,2026-05-14
+rent_00319,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,1,761.2,64900.0,2026-05-04
+rent_00320,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,1,839.2,75700.0,2026-02-27
+rent_00321,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,1,773.8,70700.0,2025-10-02
+rent_00322,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,1,799.8,75600.0,2025-07-02
+rent_00323,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,1,725.3,68700.0,2026-03-20
+rent_00324,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1156.8,85800.0,2025-12-22
+rent_00325,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1107.9,103400.0,2026-04-23
+rent_00326,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,2,1193.1,122000.0,2025-11-06
+rent_00327,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1178.1,108300.0,2026-05-21
+rent_00328,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,2,1182.0,94500.0,2025-06-19
+rent_00329,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1131.7,116300.0,2026-06-12
+rent_00330,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1252.8,112300.0,2026-01-26
+rent_00331,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1138.7,103300.0,2026-01-01
+rent_00332,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1124.5,100300.0,2025-07-13
+rent_00333,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1342.8,120100.0,2026-05-09
+rent_00334,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,2,1166.1,106900.0,2025-11-01
+rent_00335,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,2,1148.3,104900.0,2026-03-27
+rent_00336,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,3,1722.6,170100.0,2026-01-03
+rent_00337,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,3,1866.0,167200.0,2026-01-28
+rent_00338,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1650.5,140600.0,2026-04-08
+rent_00339,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,3,1937.8,184400.0,2026-06-08
+rent_00340,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1827.4,172400.0,2025-09-22
+rent_00341,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1542.1,136200.0,2026-02-10
+rent_00342,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,3,1498.7,144900.0,2026-03-08
+rent_00343,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,3,1775.4,186200.0,2025-10-16
+rent_00344,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1657.0,150400.0,2026-02-18
+rent_00345,dld,Abu Dhabi,Al Reem Island,Marina Heights,apartment,3,1642.2,141300.0,2025-11-26
+rent_00346,dld,Abu Dhabi,Al Reem Island,Sky Tower,apartment,3,1738.6,134100.0,2025-06-26
+rent_00347,dld,Abu Dhabi,Al Reem Island,Sun Tower,apartment,3,1853.1,171500.0,2026-05-14
+rent_00348,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,0,455.3,46300.0,2025-07-01
+rent_00349,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,0,422.5,40400.0,2025-09-09
+rent_00350,dld,Abu Dhabi,Yas Island,Mayan,apartment,0,457.2,48300.0,2026-02-13
+rent_00351,dld,Abu Dhabi,Yas Island,Ansam,apartment,0,469.9,51300.0,2025-07-06
+rent_00352,dld,Abu Dhabi,Yas Island,Mayan,apartment,0,463.8,46800.0,2025-09-27
+rent_00353,dld,Abu Dhabi,Yas Island,Mayan,apartment,0,458.0,50600.0,2025-10-26
+rent_00354,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,0,435.4,42700.0,2026-03-07
+rent_00355,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,0,449.7,47200.0,2026-02-12
+rent_00356,dld,Abu Dhabi,Yas Island,Ansam,apartment,0,484.5,54100.0,2026-04-05
+rent_00357,dld,Abu Dhabi,Yas Island,Ansam,apartment,0,434.2,41300.0,2026-04-27
+rent_00358,dld,Abu Dhabi,Yas Island,Ansam,apartment,0,447.5,41800.0,2026-01-09
+rent_00359,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,0,446.9,43200.0,2026-05-29
+rent_00360,dld,Abu Dhabi,Yas Island,Mayan,apartment,1,835.2,86000.0,2025-08-10
+rent_00361,dld,Abu Dhabi,Yas Island,Ansam,apartment,1,788.0,78400.0,2026-01-27
+rent_00362,dld,Abu Dhabi,Yas Island,Mayan,apartment,1,792.0,82800.0,2025-06-15
+rent_00363,dld,Abu Dhabi,Yas Island,Mayan,apartment,1,740.4,79700.0,2025-10-23
+rent_00364,dld,Abu Dhabi,Yas Island,Ansam,apartment,1,706.5,75600.0,2025-08-04
+rent_00365,dld,Abu Dhabi,Yas Island,Ansam,apartment,1,739.9,75100.0,2025-11-07
+rent_00366,dld,Abu Dhabi,Yas Island,Mayan,apartment,1,721.1,78600.0,2026-04-07
+rent_00367,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,1,728.1,75100.0,2026-05-24
+rent_00368,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,1,758.0,80900.0,2025-06-20
+rent_00369,dld,Abu Dhabi,Yas Island,Ansam,apartment,1,737.6,75700.0,2025-09-26
+rent_00370,dld,Abu Dhabi,Yas Island,Ansam,apartment,1,837.9,81100.0,2026-05-09
+rent_00371,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,1,743.3,85100.0,2025-11-05
+rent_00372,dld,Abu Dhabi,Yas Island,Ansam,apartment,2,1274.1,123400.0,2025-09-27
+rent_00373,dld,Abu Dhabi,Yas Island,Mayan,apartment,2,1221.9,115200.0,2026-05-30
+rent_00374,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1235.3,134600.0,2026-06-12
+rent_00375,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1183.2,126500.0,2026-03-12
+rent_00376,dld,Abu Dhabi,Yas Island,Ansam,apartment,2,1088.4,104200.0,2026-05-23
+rent_00377,dld,Abu Dhabi,Yas Island,Ansam,apartment,2,1266.1,143000.0,2025-08-02
+rent_00378,dld,Abu Dhabi,Yas Island,Ansam,apartment,2,1200.3,128200.0,2026-04-03
+rent_00379,dld,Abu Dhabi,Yas Island,Mayan,apartment,2,1169.2,111800.0,2025-10-01
+rent_00380,dld,Abu Dhabi,Yas Island,Ansam,apartment,2,1203.6,123800.0,2025-11-23
+rent_00381,dld,Abu Dhabi,Yas Island,Mayan,apartment,2,1218.7,125800.0,2025-07-08
+rent_00382,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1177.0,122900.0,2025-07-14
+rent_00383,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,2,1206.2,128200.0,2026-01-12
+rent_00384,dld,Abu Dhabi,Yas Island,Ansam,apartment,3,1705.3,165500.0,2026-05-05
+rent_00385,dld,Abu Dhabi,Yas Island,Ansam,apartment,3,1585.3,175200.0,2025-10-01
+rent_00386,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,3,1754.8,202700.0,2026-04-21
+rent_00387,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,3,2009.2,200700.0,2026-03-03
+rent_00388,dld,Abu Dhabi,Yas Island,Mayan,apartment,3,1659.4,172800.0,2025-08-21
+rent_00389,dld,Abu Dhabi,Yas Island,Ansam,apartment,3,1688.4,192700.0,2026-04-24
+rent_00390,dld,Abu Dhabi,Yas Island,Mayan,apartment,3,1727.6,164200.0,2026-04-03
+rent_00391,dld,Abu Dhabi,Yas Island,Ansam,apartment,3,1686.3,163900.0,2026-01-04
+rent_00392,dld,Abu Dhabi,Yas Island,Mayan,apartment,3,1972.5,196500.0,2026-05-08
+rent_00393,dld,Abu Dhabi,Yas Island,Mayan,apartment,3,1628.8,164700.0,2025-06-30
+rent_00394,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,3,1756.6,186700.0,2026-02-16
+rent_00395,dld,Abu Dhabi,Yas Island,Water's Edge,apartment,3,1734.7,165300.0,2025-07-13
+rent_00396,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,0,434.7,46600.0,2025-11-22
+rent_00397,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,479.0,59900.0,2025-07-28
+rent_00398,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,481.4,49400.0,2025-11-24
+rent_00399,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,0,464.9,56800.0,2026-05-31
+rent_00400,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,0,432.8,45300.0,2026-02-21
+rent_00401,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,0,475.6,58300.0,2026-05-16
+rent_00402,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,0,432.9,48100.0,2025-12-21
+rent_00403,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,422.4,44500.0,2026-04-06
+rent_00404,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,0,462.4,49600.0,2026-04-23
+rent_00405,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,0,489.2,52000.0,2025-10-22
+rent_00406,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,0,488.3,55500.0,2025-08-18
+rent_00407,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,0,492.1,56300.0,2026-02-15
+rent_00408,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,800.1,91400.0,2026-06-01
+rent_00409,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,1,795.0,99700.0,2026-04-05
+rent_00410,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,1,781.9,91100.0,2026-01-11
+rent_00411,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,732.0,91700.0,2026-02-05
+rent_00412,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,718.4,91200.0,2025-12-16
+rent_00413,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,826.9,106400.0,2025-09-10
+rent_00414,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,1,702.2,71600.0,2026-06-04
+rent_00415,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,1,752.3,82400.0,2026-03-12
+rent_00416,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,1,808.8,85000.0,2026-06-04
+rent_00417,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,1,850.7,92000.0,2025-07-08
+rent_00418,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,1,757.3,92000.0,2025-10-31
+rent_00419,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,1,814.7,101400.0,2025-09-17
+rent_00420,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1258.8,138500.0,2026-02-20
+rent_00421,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1198.3,145000.0,2025-09-28
+rent_00422,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,2,1120.3,118700.0,2025-08-08
+rent_00423,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1193.2,150800.0,2025-12-11
+rent_00424,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,2,1080.5,135000.0,2026-03-05
+rent_00425,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,2,1204.2,134500.0,2026-01-31
+rent_00426,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,2,1117.9,127700.0,2025-07-26
+rent_00427,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,2,1102.7,132000.0,2026-02-09
+rent_00428,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,2,1145.3,137700.0,2026-05-07
+rent_00429,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1177.2,134700.0,2025-08-27
+rent_00430,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,2,1256.6,143700.0,2026-01-21
+rent_00431,dld,Abu Dhabi,Saadiyat Island,Park View,apartment,2,1153.3,116800.0,2026-05-30
+rent_00432,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1798.0,179300.0,2026-02-03
+rent_00433,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1659.2,217800.0,2025-10-09
+rent_00434,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1643.2,209800.0,2026-02-07
+rent_00435,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1802.9,190900.0,2026-02-19
+rent_00436,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1658.6,180100.0,2025-10-20
+rent_00437,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1728.3,195200.0,2025-07-23
+rent_00438,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1640.5,200300.0,2026-04-15
+rent_00439,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1693.8,192100.0,2026-06-10
+rent_00440,dld,Abu Dhabi,Saadiyat Island,Mamsha,apartment,3,1756.1,235100.0,2025-06-30
+rent_00441,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1799.6,256100.0,2025-07-12
+rent_00442,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1749.4,214800.0,2025-10-06
+rent_00443,dld,Abu Dhabi,Saadiyat Island,Soho Square,apartment,3,1654.7,186700.0,2026-01-04
+rent_00444,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,455.2,44700.0,2025-10-01
+rent_00445,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,0,483.8,46500.0,2025-09-16
+rent_00446,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,491.3,50300.0,2026-05-04
+rent_00447,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,451.4,44400.0,2026-05-19
+rent_00448,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,485.1,48100.0,2025-07-17
+rent_00449,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,461.8,42800.0,2025-12-07
+rent_00450,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,460.5,44700.0,2026-05-08
+rent_00451,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,449.0,43800.0,2025-12-09
+rent_00452,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,453.2,45600.0,2026-03-21
+rent_00453,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,0,415.1,39400.0,2026-05-24
+rent_00454,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,506.6,51900.0,2026-02-09
+rent_00455,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,0,453.6,44900.0,2026-04-18
+rent_00456,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,1,805.2,73200.0,2025-07-28
+rent_00457,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,1,799.7,82200.0,2025-11-20
+rent_00458,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,1,763.8,60200.0,2026-03-15
+rent_00459,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,1,839.0,78600.0,2026-02-13
+rent_00460,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,1,787.8,76300.0,2025-11-08
+rent_00461,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,790.1,71800.0,2026-05-30
+rent_00462,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,720.0,70100.0,2026-02-11
+rent_00463,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,794.2,77900.0,2026-02-14
+rent_00464,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,1,708.1,61700.0,2025-11-21
+rent_00465,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,779.6,72600.0,2025-06-17
+rent_00466,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,766.9,69500.0,2025-07-19
+rent_00467,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,1,790.6,78600.0,2025-12-31
+rent_00468,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1132.6,109500.0,2026-02-28
+rent_00469,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,2,1178.3,110500.0,2025-10-30
+rent_00470,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1143.8,102800.0,2025-06-26
+rent_00471,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1123.7,101200.0,2025-11-24
+rent_00472,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1222.6,111300.0,2026-01-07
+rent_00473,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,2,1048.4,98400.0,2025-07-08
+rent_00474,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1238.4,114400.0,2025-09-29
+rent_00475,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1072.7,95200.0,2025-10-01
+rent_00476,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1298.3,130600.0,2025-12-14
+rent_00477,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,2,1070.6,103800.0,2025-08-05
+rent_00478,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1036.8,101700.0,2025-08-20
+rent_00479,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,2,1101.7,107600.0,2026-01-21
+rent_00480,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,3,1796.3,176300.0,2025-11-17
+rent_00481,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,3,1700.8,164000.0,2025-09-24
+rent_00482,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1600.2,186200.0,2025-08-22
+rent_00483,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1738.8,175200.0,2025-06-28
+rent_00484,dld,Abu Dhabi,Al Raha Beach,Al Muneera,apartment,3,1780.8,153600.0,2025-06-24
+rent_00485,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,3,1665.2,163100.0,2025-11-03
+rent_00486,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,3,1753.7,162700.0,2025-09-07
+rent_00487,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,3,1671.0,184300.0,2026-05-04
+rent_00488,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,3,1704.7,166400.0,2026-01-07
+rent_00489,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1812.8,172100.0,2025-08-12
+rent_00490,dld,Abu Dhabi,Al Raha Beach,Al Bandar,apartment,3,1799.8,168300.0,2026-06-07
+rent_00491,dld,Abu Dhabi,Al Raha Beach,Al Zeina,apartment,3,1538.7,156900.0,2025-09-29

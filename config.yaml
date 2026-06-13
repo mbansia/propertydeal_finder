@@ -1,0 +1,58 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# UAE Property Deal Finder — configuration
+#
+# Everything that controls how a "deal" is judged lives here so you can tune the
+# engine without touching code. All money is in AED.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# How far back recorded transactions stay relevant when building the per-sqft
+# benchmark (comps). Older sales are down-weighted, then dropped past the window.
+benchmark:
+  lookback_months: 12          # ignore transactions older than this
+  half_life_months: 6          # recency weight halves every N months
+  min_samples: 5               # a segment needs at least this many sales to be trusted
+  trim_pct: 0.10               # drop the top/bottom 10% of price-per-sqft as outliers
+  # Segment keys, finest first. The engine prices each listing at the finest
+  # segment that clears `min_samples`, then falls back to coarser ones.
+  segment_levels:
+    - [city, area, property_type, bedrooms]
+    - [city, area, property_type]
+    - [city, area]
+    - [city, property_type, bedrooms]
+    - [city, property_type]
+
+# Rental yield. Rent benchmark (AED per sqft per year) is built the same way as
+# the sale benchmark, from recorded rental contracts.
+yield:
+  lookback_months: 12
+  min_samples: 5
+  # Costs subtracted from gross rent to get a net yield, as a fraction of rent.
+  service_charge_per_sqft: 15  # AED/sqft/yr typical building service charge
+  mgmt_cost_ratio: 0.08        # property mgmt + maintenance as share of rent
+  vacancy_ratio: 0.05          # expected vacancy as share of rent
+
+# Deal score (0–100). A listing's score blends how far below market it is asking
+# (undervaluation) with the net rental yield, scaled by how confident we are in
+# the underlying comps.
+score:
+  weights:
+    undervaluation: 0.55       # asking price vs comps-implied fair value
+    net_yield: 0.45            # net rental yield
+  # Points are earned on a sliding scale between these floors/caps.
+  undervaluation_floor: 0.0    # 0% below market -> 0 points
+  undervaluation_cap: 0.25     # 25%+ below market -> full points
+  net_yield_floor: 0.04        # 4% net yield -> 0 points
+  net_yield_cap: 0.09          # 9%+ net yield -> full points
+  # Confidence multiplier. Thin comps or stale listings get discounted.
+  min_confidence: 0.30
+  listing_fresh_days: 14       # listings older than this lose freshness confidence
+  # Sanity guardrails: discounts this deep are usually bad data, leasehold, or
+  # distressed/legal issues — flag, don't celebrate.
+  suspicious_discount: 0.40
+
+# Where data lives. Connectors write normalized CSVs here; the engine reads them.
+paths:
+  listings: data/sample/listings.csv
+  transactions_sale: data/sample/transactions_sale.csv
+  transactions_rent: data/sample/transactions_rent.csv
+  output: out/deals.csv

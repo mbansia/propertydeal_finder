@@ -1,16 +1,23 @@
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
 *.egg-info/
-dist/
-build/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local data / secrets
 .env
-data/
-*.db
 *.sqlite
-.claude/
+*.db
+data/cache/
+data/raw/
+out/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

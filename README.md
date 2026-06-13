@@ -1,152 +1,131 @@
-# Property Deal Finder
+# UAE Property Deal Finder
 
-**UAE Real Estate Deal Scraper & Analyzer** for Dubai and Abu Dhabi.
+Find under-priced residential listings in **Dubai** and **Abu Dhabi**, fast.
 
-Scrapes residential property listings from **Bayut**, **Dubizzle**, and **Property Finder**, stores them in a local database, analyzes deals using market comparisons and rental yield calculations, then ranks properties with a deal score. Top-scoring deals get deep AI-powered investment analysis via **Ollama** (local LLM, no API keys needed).
+The core idea: a listing is only a *deal* relative to what comparable units have
+**actually sold and rented for** — not relative to other asking prices, which can
+all be inflated together. So every listing is priced against **recorded
+transactions** (DLD · ADRE · DXBconnect), then ranked on two things you care
+about when you need to move quickly:
 
-## Features
+1. **Undervaluation** — how far below comps (per-sqft benchmark) it's asking.
+2. **Net rental yield** — the cash return at that price, after costs.
 
-- **Multi-source scraping** — Bayut.com, Dubizzle.com, PropertyFinder.ae
-- **All residential types** — Apartments, villas, townhouses, penthouses, duplexes
-- **Deal scoring (0-100)** based on:
-  - Price vs neighborhood median (40%)
-  - Price per sqft vs area median (30%)
-  - Estimated rental yield (30%)
-- **AI-powered analysis** — Top deals investigated locally via Ollama with investment ratings, risk factors, and rental potential
-- **Web dashboard** — Filter, sort, browse deals, view AI analysis
-- **Market overview** — AI-generated market summary
+```
+ Transactions ──► Benchmarks ──┐
+ (DLD/ADRE/DXB)   per-sqft comps │
+                                 ├─► Score & rank ─► Top deals (CLI / dashboard / CSV)
+ Listings ───────────────────────┘
+ (Bayut/Dubizzle/PropertyFinder/Reddit)
+```
 
-## Quick Start (Local Dev)
+## Quick start
 
 ```bash
-# 1. Clone & install
-git clone https://github.com/mbansia/propertydeal_finder.git
-cd propertydeal_finder
 pip install -r requirements.txt
 
-# 2. Configure Ollama (choose one)
-# - LOCAL: install Ollama from ollama.com, then: ollama pull llama3.1
-# - HOSTED: create .env with OLLAMA_BASE_URL=https://ollama.com and OLLAMA_API_KEY=...
+# 1. Generate sample data (stands in for live connectors)
+python -m scripts.seed_sample_data
 
-# 3. Run everything (scrape + analyze)
-python run_scraper.py run
+# 2. Scan the best deals in the terminal
+python -m dealfinder.cli deals --limit 20
 
-# 4. Start the dashboard
-python run_scraper.py server
-# Open http://localhost:8000
+# 3. Or open the interactive dashboard
+streamlit run app.py
 ```
 
-For deploying this to a hosted URL, see [Deploy from GitHub](#deploy-from-github) below.
+The sample dataset includes a handful of genuinely under-priced listings, so the
+top of the table shows real-looking deals (15–21% below comps with healthy
+yields) the moment you run it.
 
-## CLI Commands
+## How a deal is scored
+
+For each listing the engine:
+
+1. **Finds comps.** Recorded sales are bucketed by `city → area → type → bedrooms`.
+   For each bucket it takes a **recency-weighted, outlier-trimmed median
+   price-per-sqft**. Thin buckets fall back to coarser ones, and the result
+   carries a **confidence** reflecting how many recent sales backed it.
+2. **Measures undervaluation.** `discount = 1 − (asking ppsf ÷ comp ppsf)`.
+3. **Estimates net yield.** A rent benchmark (built the same way from rental
+   contracts) gives expected rent; subtract service charge, management and
+   vacancy to get **net yield = net rent ÷ price**.
+4. **Scores 0–100.** `55% undervaluation + 45% net yield`, scaled by comp
+   confidence and listing freshness. Deals deeper than 40% off are **flagged**
+   as too-good-to-be-true (bad data, leasehold, or distressed) rather than
+   celebrated.
+
+Everything above — weights, thresholds, cost assumptions, segment levels — is
+tunable in [`config.yaml`](config.yaml).
+
+## CLI
 
 ```bash
-# Scrape all sources (10 pages each)
-python run_scraper.py scrape
-
-# Scrape specific source with more pages
-python run_scraper.py scrape --source bayut --max-pages 20
-
-# Run analysis only (market stats + deal scoring + AI)
-python run_scraper.py analyze
-
-# Run analysis without AI (no API key needed)
-python run_scraper.py analyze --no-ai
-
-# Start web dashboard
-python run_scraper.py server --port 8000
+python -m dealfinder.cli deals --city Dubai --min-score 40
+python -m dealfinder.cli deals --max-price 1500000 --min-yield 6 --type apartment
+python -m dealfinder.cli deals --min-discount 12 --save out/shortlist.csv
+python -m dealfinder.cli deals --include-suspicious      # show flagged ultra-discounts
 ```
 
-## Dashboard API
+| Flag | Meaning |
+|------|---------|
+| `--city` | `Dubai` / `Abu Dhabi` |
+| `--type` | `apartment` / `villa` / `townhouse` / `penthouse` |
+| `--source` | `bayut` / `dubizzle` / `property_finder` / `reddit` |
+| `--max-price` | cap asking price (AED) |
+| `--min-score` / `--min-yield` / `--min-discount` | thresholds |
+| `--save PATH` | write the filtered shortlist to CSV |
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/properties` | GET | List/filter properties |
-| `/api/properties/{id}` | GET | Property detail |
-| `/api/top-deals` | GET | Top-scored deals |
-| `/api/stats` | GET | Database statistics |
-| `/api/filters` | GET | Available filter values |
-| `/api/scrape` | POST | Trigger scrape run |
-| `/api/analyze` | POST | Trigger analysis |
-| `/api/ai-analyze/{id}` | POST | AI-analyze a property |
-| `/api/market-overview` | GET | AI market overview |
+## Wiring real data
 
-## Project Structure
+The engine reads three normalized CSVs (paths in `config.yaml`). Connectors in
+[`dealfinder/connectors/`](dealfinder/connectors/) turn each real source into
+those rows:
 
-```
-propertydeal_finder/
-├── main.py                 # FastAPI app & API routes
-├── run_scraper.py          # CLI entry point
-├── config.py               # Settings & environment config
-├── requirements.txt
-├── database/
-│   ├── db.py               # SQLite connection
-│   └── models.py           # Property, MarketStats, AnalysisResult
-├── scrapers/
-│   ├── base.py             # Base scraper with rate limiting
-│   ├── bayut.py            # Bayut.com scraper
-│   ├── dubizzle.py         # Dubizzle.com scraper
-│   └── propertyfinder.py   # PropertyFinder.ae scraper
-├── analysis/
-│   ├── metrics.py          # Market stats, deal scoring
-│   └── ai_analyzer.py      # Ollama LLM integration
-└── dashboard/
-    ├── templates/index.html
-    └── static/
-        ├── style.css
-        └── app.js
+- **Listings** (asking prices): `bayut`, `dubizzle`, `property_finder`, `reddit`.
+  The Reddit connector already pulls public JSON; the three portals are behind
+  anti-bot protection and Terms — use their official APIs/partner feeds, save a
+  results payload, and map it in the connector's `parse_export`.
+- **Transactions** (the comps): `dld`, `adre`, `dxbconnect`. These map cleanly
+  from the structured government/portal **CSV exports** — download a file and
+  point the connector at it:
+
+```python
+from dealfinder.connectors.transactions import DLDConnector
+DLDConnector("downloads/dld_transactions.csv", kind="sale").append_to(
+    "data/sample/transactions_sale.csv"
+)
 ```
 
-## Tech Stack
+Each connector emits the schema in [`dealfinder/schema.py`](dealfinder/schema.py),
+so the engine never cares where a row came from. Swap the sample CSVs for
+connector output and everything downstream — scoring, CLI, dashboard — just works.
 
-- **Python 3.11+** — Backend
-- **FastAPI** — Web framework & API
-- **SQLite + SQLAlchemy** — Database
-- **httpx + BeautifulSoup** — Scraping
-- **Ollama** — AI analysis (local or via Ollama Cloud API)
-- **Vanilla JS** — Dashboard frontend
+> **Note on data:** respect each source's Terms of Service and rate limits, and
+> treat transaction data per its licence. The bundled data is synthetic and for
+> demonstration only — not investment advice. Always verify title, service
+> charges, and any flags before acting on a deal.
 
-## Deploy from GitHub
+## Project layout
 
-### Option A: Render (Recommended - free tier)
+```
+config.yaml                 # all scoring knobs (weights, thresholds, costs)
+dealfinder/
+  schema.py                 # normalized listing / transaction columns
+  benchmarks.py             # recency-weighted, trimmed per-sqft comps + fallback
+  scoring.py                # discount + net yield -> 0–100 deal score
+  pipeline.py               # load -> benchmark -> score -> rank
+  cli.py                    # terminal deal scanner
+  connectors/
+    listings.py             # Bayut, Dubizzle, Property Finder, Reddit
+    transactions.py         # DLD, ADRE, DXBconnect
+scripts/seed_sample_data.py # realistic synthetic data generator
+app.py                      # Streamlit dashboard
+tests/test_engine.py        # benchmark + scoring tests
+```
 
-1. Push this repo to GitHub (done)
-2. Go to https://render.com and sign in with GitHub
-3. Click **New → Blueprint** and select the `propertydeal_finder` repo
-4. Render auto-detects `render.yaml` and creates the service
-5. In the Render dashboard, set the `OLLAMA_API_KEY` env var (from https://ollama.com/settings/keys)
-6. Deploy. Your app will be live at `https://propertydeal-finder.onrender.com`
-
-**For persistent data** (so SQLite survives redeploys): upgrade to the Starter plan ($7/mo) and uncomment the `disk:` block in `render.yaml`. On free tier, data resets on each deploy.
-
-### Option B: Railway
-
-1. Go to https://railway.app and sign in with GitHub
-2. **New Project → Deploy from GitHub Repo** → select `propertydeal_finder`
-3. Railway detects `Dockerfile` and `railway.json`
-4. Add environment variables in Railway dashboard:
-   - `OLLAMA_BASE_URL` = `https://ollama.com`
-   - `OLLAMA_MODEL` = `gpt-oss:20b`
-   - `OLLAMA_API_KEY` = your key
-5. Railway provides a persistent volume by default for `/app/data`
-
-### Option C: Fly.io
+## Tests
 
 ```bash
-fly launch                     # uses the Dockerfile
-fly secrets set OLLAMA_API_KEY=your-key OLLAMA_BASE_URL=https://ollama.com
-fly volumes create data --size 1
-fly deploy
+python -m pytest tests/ -q
 ```
-
-### Why not Vercel?
-
-Vercel is serverless (10-60s execution, no persistent disk, no background workers). This app needs long-running scrapes, SQLite persistence, and background tasks — use Render/Railway/Fly instead.
-
-### Required Environment Variables
-
-| Var | Example | Notes |
-|-----|---------|-------|
-| `OLLAMA_BASE_URL` | `https://ollama.com` | Hosted endpoint |
-| `OLLAMA_MODEL` | `gpt-oss:20b` or `llama3.1:70b` | Pick from https://ollama.com/library |
-| `OLLAMA_API_KEY` | `ollama-...` | Get at https://ollama.com/settings/keys |
